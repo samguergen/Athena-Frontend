@@ -1,19 +1,33 @@
-/* styling for Athena page - CSS */
 
+
+/* sam's style - CSS */
 body {
-  background: pink;
+  background: pink !important;
 }
 
-.navbar-default {
-  background: black;
+#top-hat {
+  width: 95%;
 }
 
-.glyphicon-align-justify {
-  /*color: white;*/
+#top-hat h2{
+  font-weight: bold;
+  font-size: 12px;
+  transform : scale(1,1.5);
+  -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+  -moz-transform:scale(1,1.5); /* Firefox */
+  -ms-transform:scale(1,1.5); /* IE 9+ */
+  -o-transform:scale(1,1.5); /* Opera */
 }
 
-a.predicting {
-  color: white;
-  font-family: 'Playfair Display', serif;
+#top-hat #sgc span.whats-this {
+  font-weight: bold;
+  font-size: 10px;
+}
 
+#top-hat #sgc .first{
+  text-decoration: none;
+}
+
+#hat-right #lockup img {
+  height: 20px;
 }
