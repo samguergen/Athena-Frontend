@@ -35,24 +35,6 @@ body {
   height: 20px;
   color: rgb(250, 250, 250);
 }
-
-/*#hero::before {
-  height: 150% !important;
-}*/
-
-.hero-section {
-   position: relative;
-   width: 100%; /* for IE 6 */
-   background: blue;
-}
-
-.fpo {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-}
-
 .mainbod {
   height: 100%;
   position: relative;
@@ -65,14 +47,27 @@ body {
 
 .fpo h2 {
   position: absolute;
-  top: 200px;
+  top: 130px;
   left: 0;
   width: 100%;
   color: grey;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 100%;
   text-align: center;
   font-size: 200px;
+}
+
+.predict {
+  background: white;
+  margin: 0 auto;
+}
+
+.predict h2 {
+    line-height: 1.1;
+    margin-left: 25%;
+    padding: 15px;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    top: 320px;
+    background: white;
+    width: 52%;
 }
