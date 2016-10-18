@@ -71,3 +71,7 @@ body {
     background: white;
     width: 52%;
 }
+
+.predict-content {
+  position: absolute;
+}
