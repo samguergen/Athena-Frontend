@@ -5,25 +5,29 @@
   <link rel="stylesheet" type="text/css" href="third_parties/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="styles/app.css">
 </head>
+
 <body>
   <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-align-justify"></span>
+        </button></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li><a class="predicting" href="#">PREDICTING TOMORROW'S HEALTHCARE</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-
+        <a class="navbar-brand" href="#">Athena</a>
+        <a class="navbar-brand" href="#">WSJ</a>
+        <a class="navbar-brand" href="#">Share</a>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
