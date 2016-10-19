@@ -1,14 +1,8 @@
 @font-face {
     font-family: "Industry";
-    /*src: url(http://www.example.org/mycustomfont.ttf) format("truetype");*/
   src: local("Industry"),
        url(Industry.ttf);
   font-weight: bold;
-}
-
-/* sam's style - CSS */
-body {
-  background: white !important;
 }
 
 
@@ -41,6 +35,12 @@ body {
   height: 20px;
   color: rgb(250, 250, 250);
 }
+
+#hat-right #social-toggle img {
+  margin-top: 10px;
+  height: 80%;
+}
+
 .mainbod {
   height: 100%;
   position: relative;
