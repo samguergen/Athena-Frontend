@@ -215,7 +215,7 @@ hr.purple {
   width: 40%;
 }
 
-.grey-set .quote, .grey-set .quote-ref, .grey-set .jumbo-descr, .grey-set .read-more{
+.grey-set .quote, .grey-set .quote-ref, .grey-set .jumbo-descr, .grey-set .btn-area{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -234,11 +234,13 @@ hr.purple {
   text-transform: uppercase;
 }
 
-.grey-set .read-more {
+.btn-area {
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.grey-set .read-more button {
+.btn-area button {
   padding: 6px;
   padding-left: 15px;
   padding-right: 15px;
@@ -272,10 +274,6 @@ hr.purple {
 .white-jumbo .more-athena-imgs {
   display: flex;
   flex-direction: row;
-  /*margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;*/
   margin: 5% auto 5% auto;
 }
 
