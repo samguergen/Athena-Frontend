@@ -264,17 +264,21 @@ hr.purple {
   flex-direction: column;
   padding: 8%;
   background-color: rgb(255,255,255);
-  height: 400px;
+  height: 300px;
 }
 
 .white-jumbo .more-athena, .white-jumbo .more-athena-imgs, .white-jumbo .more-stories{
-  margin: 5% auto 5% auto;
+  margin: 2% auto 2% auto;
+}
+
+.white-jumbo .more-athena p {
+  font-size: 30px;
 }
 
 .white-jumbo .more-athena-imgs {
   display: flex;
   flex-direction: row;
-  margin: 5% auto 5% auto;
+  margin: 2% auto 2% auto;
 }
 
 .white-jumbo .more-athena-imgs .img-section{
@@ -282,6 +286,7 @@ hr.purple {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+  padding: 2%;
 }
 
 .white-jumbo .more-athena-imgs .img-section .img-legend{
@@ -289,9 +294,34 @@ hr.purple {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  width: 100px;
+  padding-left: 5%;
+  text-transform: uppercase;
 }
+
+.white-jumbo .more-athena-imgs .img-section .img-legend .first{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.white-jumbo .more-athena-imgs .img-section .img-legend .second{
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.white-jumbo .more-athena-imgs .img-section .img-legend .third{
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
 
 .white-jumbo .more-athena-imgs .img-section img {
   height: 100px;
   width: 100px;
+}
+
+.white-jumbo .btn-area {
+  margin-top: -5px;
 }
