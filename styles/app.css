@@ -171,7 +171,7 @@ hr.purple {
 }
 
 .grey-set {
-  height: 600px;
+  height: 500px;
   padding: 8%;
   background-color: rgb(223,223,223);
   display: flex;
@@ -223,4 +223,5 @@ hr.purple {
   background: rgb(75,75,75);
   font-size: 9px;
   color: white;
+  border: 1px solid rgb(75,75,75);
 }
