@@ -162,9 +162,53 @@ hr.purple {
   background-size: cover;
 }
 
-.second-set .fpo {
+.second-set .fpo-header {
+  font-family: Industry;
+  font-size: 180px;
   line-height: 400px;
   height: 400px;
   text-align: center;
+}
+
+.grey-set {
+  height: 600px;
+  padding: 8%;
+  background-color: rgb(223,223,223);
+  display: flex;
+  flex-direction: column;
+}
+
+.grey-set .quote {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px
+}
+
+.grey-set .quote-ref {
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+.grey-set .quote-ref hr.purple{
+  width: 40%;
+}
+
+.grey-set .quote, .grey-set .quote-ref, .grey-set .jumbo-descr, .grey-set .read-more{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.grey-set .jumbo-descr {
+  text-align: justify;
+  width: 50%;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.grey-set .jumbo-descr .first-line {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
