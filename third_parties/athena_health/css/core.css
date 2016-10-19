@@ -1,7 +1,7 @@
 /* Reset */
 
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var, 
-u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, 
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var,
+u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -120,7 +120,7 @@ html, body {
 	/*max-width: 960px;*/
 	height: 100%;
 	margin: 0 auto;
-} 
+}
 #hat-right > div{
 	display: inline-block;
 	float: left;
@@ -431,9 +431,6 @@ html, body {
 	#sgc span{
 		line-height: 40px;
 	}
-	#top-hat #hat-bottom{
-		background-color: #666;
-	}
 	#top-hat #hat-right{
 		height: 100%;
 		position: relative;
@@ -456,7 +453,7 @@ html, body {
 		width: 40px !important;
 		height: 40px !important;
 	}
-	
+
 	.hero{
 		background-size: contain;
 		background-position: 0 60px;
