@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: "Industry";
+    /*src: url(http://www.example.org/mycustomfont.ttf) format("truetype");*/
+  src: local("Industry"),
+       url(Industry.ttf);
+  font-weight: bold;
+}
 
 /* sam's style - CSS */
 body {
@@ -54,6 +60,7 @@ body {
   color: rgb(75,75,75);
   text-align: center;
   font-size: 200px;
+  font-family: "Industry";
 }
 
 .predict {
@@ -248,4 +255,45 @@ hr.purple {
   background-color: rgb(255,255,255);
   display: flex;
   flex-direction: column;
+}
+
+.white-jumbo {
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  background-color: rgb(255,255,255);
+  height: 400px;
+}
+
+.white-jumbo .more-athena, .white-jumbo .more-athena-imgs, .white-jumbo .more-stories{
+  margin: 5% auto 5% auto;
+}
+
+.white-jumbo .more-athena-imgs {
+  display: flex;
+  flex-direction: row;
+  /*margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;*/
+  margin: 5% auto 5% auto;
+}
+
+.white-jumbo .more-athena-imgs .img-section{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white-jumbo .more-athena-imgs .img-section .img-legend{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white-jumbo .more-athena-imgs .img-section img {
+  height: 100px;
+  width: 100px;
 }
