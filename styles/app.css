@@ -157,9 +157,14 @@ hr.purple {
   border-color: rgb(99,31,100);
 }
 
-.container .fpo-header {
-  line-height: 200px;
-  height: 200px;
-  border: 3px solid green;
+.second-set {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+}
+
+.second-set .fpo {
+  line-height: 400px;
+  height: 400px;
   text-align: center;
 }
+
