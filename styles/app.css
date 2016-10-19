@@ -60,7 +60,6 @@
   color: rgb(75,75,75);
   text-align: center;
   font-size: 200px;
-  font-family: "Industry";
 }
 
 .predict {
@@ -160,8 +159,8 @@
 }
 
 hr.purple {
-  width: 80%;
-  border-color: rgb(99,31,100);
+  width: 70%;
+  border-color: rgb(104, 30, 102);
 }
 
 .second-set {
@@ -170,7 +169,6 @@ hr.purple {
 }
 
 .second-set .fpo-header {
-  font-family: Industry;
   font-size: 180px;
   line-height: 400px;
   height: 400px;
@@ -188,6 +186,9 @@ hr.purple {
 .grey-set .quote-wrapper {
   display: flex;
   flex-direction: row;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grey-set .quote-wrapper img{
@@ -197,13 +198,14 @@ hr.purple {
 }
 
 .grey-set .quote-wrapper img.second{
-  margin-top: 80px;
+  margin-top: 75px;
 }
 
 .grey-set .quote-wrapper .quote {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 40px;
+  font-family: "Industry Light";;
 }
 
 .grey-set .quote-ref {
