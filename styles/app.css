@@ -186,6 +186,11 @@ hr.purple {
 .grey-set .quote-wrapper img{
   height: 50px;
   width: 60px;
+  margin-left: 5%;
+}
+
+.grey-set .quote-wrapper img.second{
+  margin-top: 80px;
 }
 
 .grey-set .quote-wrapper .quote {
