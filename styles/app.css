@@ -99,7 +99,7 @@ body {
   background: white;
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .predict-jumbo .contact-photos {
@@ -200,8 +200,8 @@ hr.purple {
 }
 
 .grey-set .quote-ref {
-  padding-top: 4%;
-  padding-bottom: 8%;
+  padding-top: 3%;
+  padding-bottom: 7%;
 }
 
 .grey-set .quote-ref hr.purple{
@@ -228,7 +228,7 @@ hr.purple {
 }
 
 .grey-set .read-more {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .grey-set .read-more button {
@@ -239,4 +239,13 @@ hr.purple {
   font-size: 9px;
   color: white;
   border: 1px solid rgb(75,75,75);
+}
+
+
+.white-set {
+  height: 500px;
+  padding: 8%;
+  background-color: rgb(255,255,255);
+  display: flex;
+  flex-direction: column;
 }
