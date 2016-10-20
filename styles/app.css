@@ -17,7 +17,7 @@
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.svg#Ambroise Francois") format("svg");
 }
 
-a {
+a:link, a:visited {
   text-decoration: none !important;
 }
 
@@ -155,6 +155,11 @@ a {
 .predict-jumbo .contact-photos {
   display: flex;
   flex-direction: column;
+}
+
+.predict-jumbo .contact-photos .first-row a, .predict-jumbo .contact-photos .second-row a {
+  text-decoration:none;
+  color: black
 }
 
 .predict-jumbo .contact-photos img {
