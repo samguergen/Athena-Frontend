@@ -17,6 +17,10 @@
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.svg#Ambroise Francois") format("svg");
 }
 
+a {
+  text-decoration: none !important;
+}
+
 #top-hat { width: 95%;}
 
 #top-hat h2{
