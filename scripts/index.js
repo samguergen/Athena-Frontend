@@ -1,32 +1,22 @@
 $(document).ready(function() {
-  console.log('$ loading');
-// $(‘.back-to-top’).css({“display”: “none”});
-var offset = 250;
+  console.log('jquery loading');
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 
-var duration = 300;
+  var amountScrolled = 300;
 
-// $(window).scroll(function() {
+  $(window).scroll(function() {
+    if ( $(window).scrollTop() > amountScrolled ) {
+      $('a.back-to-top').fadeIn('slow');
+    } else {
+      $('a.back-to-top').fadeOut('slow');
+    }
+  });
 
-// if ($(this).scrollTop() > offset) {
-
-// $(‘.back-to-top’).fadeIn(duration);
-
-// } else {
-
-// $(‘.back-to-top’).fadeOut(duration);
-
-// }
-
-// });
-
-// $(‘.back-to-top’).click(function(event) {
-
-// event.preventDefault();
-
-// $(‘html, body’).animate({scrollTop: 0}, duration);
-
-// return false;
-
-// })
+  $('a.back-to-top').click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 700);
+    return false;
+  });
 
 });
