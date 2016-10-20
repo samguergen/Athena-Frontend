@@ -26,18 +26,18 @@ $(document).ready(function() {
     console.log('inside click func');
     $('#readmore-content').css({'display': 'inline'});
     $('.btn-area #read-more').css({'display': 'none'});
-    $('.btn-area #read-less').css({'display': 'block'});
+    $('.btn-area #read-less').css({'display': 'block', 'margin-top': '-5%'});
+    $('.quote-ref').css({'margin-top': '15%'});
   });
 
-  // $(".predict-jumbo .contact-photos .first-row a[href]").on('click', function(e) {
-  //    e.preventDefault();
-  //    var hash = this.hash;
-  //    $('html, body').animate({
-  //        scrollTop: $(hash).offset().top
-  //      }, 300, function(){
-  //        window.location.hash = hash;
-  //      });
-  // });
+
+//displaying less text after read less btn is clicked
+  $('#read-less').click(function() {
+    console.log('inside unclick func');
+    $('#readmore-content').css({'display': 'none'});
+    $('.btn-area #read-less').css({'display': 'none'});
+    $('.btn-area #read-more').css({'display': 'block'});
+  });
 
 });
 
