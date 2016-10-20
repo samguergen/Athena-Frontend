@@ -396,3 +396,26 @@ footer .footer-note {
   text-align: center;
   padding: 3%;
 }
+
+/*#back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000;
+}*/
+
+#back-to-top {
+  position: fixed;
+  z-index: 99;
+  top: 90%;
+  position: fixed;
+  left: 90%;
+}
