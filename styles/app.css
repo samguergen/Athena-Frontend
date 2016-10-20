@@ -1,10 +1,20 @@
 /* SAMS WORK */
 
+@import url(//db.onlinewebfonts.com/c/7f3b7d43b0a45c1ea35b6970a0592e2d?family=Ambroise+Francois);
+
 @font-face {
-    font-family: "Industry";
-  src: local("Industry"),
-       url(Industry.ttf);
-  font-weight: bold;
+  font-family: "Industry";
+    src: local("Industry"),
+         url(Industry.ttf);
+    font-weight: bold;
+
+  font-family: "Ambroise Francois";
+    src: url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.eot");
+    src: url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.svg#Ambroise Francois") format("svg");
 }
 
 #top-hat { width: 95%;}
@@ -231,7 +241,7 @@ hr.purple {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 40px;
-  font-family: "Industry Light";;
+  font-family: "ambroise-francois-std";
 }
 
 .grey-set .quote-ref {
@@ -297,7 +307,11 @@ hr.purple {
   margin: 2% auto 2% auto;
 }
 
-.white-jumbo .more-athena p { font-size: 30px; }
+.white-jumbo .more-athena p h1{
+  font-size: 30px;
+  font-family: "ambroise-francois-std",sans-serif;
+  font-family: "ambroise";
+}
 
 .white-jumbo .more-athena-imgs {
   display: flex;
