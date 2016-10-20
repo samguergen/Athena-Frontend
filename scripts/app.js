@@ -1,5 +1,7 @@
 $(document).ready(function() {
   console.log('jquery loading');
+
+  //scroll to top animation
   $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 
   var amountScrolled = 300;
@@ -20,3 +22,18 @@ $(document).ready(function() {
   });
 
 });
+
+
+//metric to track user clicking WSJCS nav logo
+function handleOutboundLinkClicks(event) {
+  ga('send', 'event', {
+    eventCategory: 'Outbound Link',
+    eventAction: 'click',
+    eventLabel: event.target.href
+  });
+
+  function countLinkClicks(){
+    var metricValue = '+1';
+    ga('set', 'metric1', metricValue);
+  }
+}
