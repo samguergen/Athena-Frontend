@@ -263,11 +263,13 @@ hr.purple {
   width: 50%;
   line-height: 1.8;
   font-size: 12px;
+  color: rgb(75,75,75);
 }
 
 .grey-set .jumbo-descr .first-line {
   font-weight: bold;
   text-transform: uppercase;
+  color: black;
 }
 
 .btn-area {
@@ -420,4 +422,14 @@ a.back-to-top {
   right: 20px;
   bottom: 20px;
   background: url(../images/top.png) no-repeat center;
+}
+
+.firstcharacter {
+  float: left;
+  color: rgb(75,75,75);
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
