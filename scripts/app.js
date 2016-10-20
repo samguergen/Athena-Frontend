@@ -22,13 +22,23 @@ $(document).ready(function() {
   });
 
 //displaying more text after read more btn is clicked
-  $('#read-more').click(function() {
-    console.log('inside click func');
-    $('#readmore-content').css({'display': 'inline'});
-    $('.btn-area #read-more').css({'display': 'none'});
-    $('.btn-area #read-less').css({'display': 'block', 'margin-top': '-5%'});
-    $('.quote-ref').css({'margin-top': '15%'});
+  // $('.read-more').click(function(event) {
+  //   console.log('inside click func');
+  //   console.log('event is ', event.target);
+  //   console.log('event class is ', event.target.class);
+  //   $('.readmore-content').css({'display': 'inline'});
+  //   $('.btn-area .read-more').css({'display': 'none'});
+  //   $('.btn-area .read-less').css({'display': 'block', 'margin-top': '-5%'});
+  //   $('.quote-ref').css({'margin-top': '15%'});
+  // });
+
+$('.read-more').click(function(event) {
+  console.log('event is ', event.target);
+  console.log('event id is ', event.target.id);
+  console.log('this is ', $(this));
   });
+
+  // $spin = this.$('.readmore-content');
 
 
 //displaying less text after read less btn is clicked
