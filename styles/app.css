@@ -266,7 +266,7 @@ hr.purple {
   color: rgb(75,75,75);
 }
 
-.grey-set .jumbo-descr .first-line {
+.grey-set .jumbo-descr::first-line {
   font-weight: bold;
   text-transform: uppercase;
   color: black;
