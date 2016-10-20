@@ -15,21 +15,29 @@ $(document).ready(function() {
   });
 
   $('a.back-to-top').click(function() {
-  $('html, body').animate({
-      scrollTop: 0
-    }, 700);
-    return false;
+    $('html, body').animate({
+        scrollTop: 0
+      }, 700);
+      return false;
   });
 
-  $(".predict-jumbo .contact-photos .first-row a[href]").on('click', function(e) {
-     e.preventDefault();
-     var hash = this.hash;
-     $('html, body').animate({
-         scrollTop: $(hash).offset().top
-       }, 300, function(){
-         window.location.hash = hash;
-       });
+//displaying more text after read more btn is clicked
+  $('#read-more').click(function() {
+    console.log('inside click func');
+    $('#readmore-content').css({'display': 'inline'});
+    $('.btn-area #read-more').css({'display': 'none'});
+    $('.btn-area #read-less').css({'display': 'block'});
   });
+
+  // $(".predict-jumbo .contact-photos .first-row a[href]").on('click', function(e) {
+  //    e.preventDefault();
+  //    var hash = this.hash;
+  //    $('html, body').animate({
+  //        scrollTop: $(hash).offset().top
+  //      }, 300, function(){
+  //        window.location.hash = hash;
+  //      });
+  // });
 
 });
 
