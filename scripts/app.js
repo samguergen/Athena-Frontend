@@ -22,7 +22,6 @@ $(document).ready(function() {
   });
 
 
-
 var contentArr = [
                     ['#rm-btn1', '#rl-btn1', '#rm-content1', '#qr1'],
                     ['#rm-btn2', '#rl-btn2', '#rm-content2', '#qr2'],
@@ -54,22 +53,43 @@ function initToggle(){
   })
 }
 
-initToggle();
+// initToggle();
+
+//v2
+
+function initToggle2(){
+  $.each( new Array(5), function(i){
+    // console.log('i is ', i);
+    // var test ='#rm-btn'+(i+1);
+    // console.log('alsoooo ', test, typeof(test));
+
+    $('#rm-btn'+(i+1)).click(function() {
+      $('#rm-content'+(i+1)).css({'display': 'inline'});
+      $('#rl-btn'+(i+1)).css({'display': 'block', 'margin-top': '-5%'});
+      $('#rm-btn'+(i+1)).css({'display': 'none'});
+      $('#qr'+(i+1)).css({'margin-top': '13%', 'margin-bottom': '-10px'});
+    });
+
+    $('#rl-btn'+(i+1)).click(function() {
+      $('#rm-content'+(i+1)).css({'display': 'none'});
+      $('#rl-btn'+(i+1)).css({'display': 'none'});
+      $('#rm-btn'+(i+1)).css({'display': 'block'});
+    });
+  })
+}
+
+initToggle2();
+
+
+
+
 
 });
 
 
 
 
-
-
-
-
-
-
-
-
-
+//GOOGLE ANALYTICS
 
 //metric to track user clicking WSJCS nav logo
 function handleOutboundLinkClicks(event) {
