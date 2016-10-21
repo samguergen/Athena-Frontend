@@ -255,6 +255,7 @@ hr.purple {
 .grey-set .quote-ref {
   padding-top: 3%;
   padding-bottom: 7%;
+  margin-top: 100px;
 }
 
 .grey-set .quote-ref hr.purple{ width: 40%; }
@@ -282,7 +283,7 @@ hr.purple {
 }
 
 .btn-area {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -295,7 +296,12 @@ hr.purple {
   font-size: 9px;
   color: white;
   border: 1px solid rgb(75,75,75);
+  transition: 0.4s;
 }
+
+.btn-area .read-more {
+    margin-top: -50px;
+  }
 
 .btn-area .read-more, .btn-area .read-less {
   margin-left: auto;
@@ -304,7 +310,10 @@ hr.purple {
 }
 
 .readmore-content, .btn-area .read-less {
-  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
 }
 
 .white-set {

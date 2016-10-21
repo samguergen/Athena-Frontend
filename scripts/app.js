@@ -27,16 +27,16 @@ function initToggle(){
   $.each(new Array(5), function(i){
 
     $('#rm-btn'+(i+1)).click(function() {
-      $('#rm-content'+(i+1)).css({'display': 'inline'});
-      $('#rl-btn'+(i+1)).css({'display': 'block', 'margin-top': '-5%'});
-      $('#rm-btn'+(i+1)).css({'display': 'none'});
+      $('#rm-content'+(i+1)).css({'opacity': '1', 'transition': '0.4s'});
+      $('#rl-btn'+(i+1)).css({'opacity': '1', 'margin-top': '-5%', 'height': '5%'});
+      $('#rm-btn'+(i+1)).css({'opacity': '0'});
       $('#qr'+(i+1)).css({'margin-top': '13%', 'margin-bottom': '-10px'});
     });
 
     $('#rl-btn'+(i+1)).click(function() {
-      $('#rm-content'+(i+1)).css({'display': 'none'});
-      $('#rl-btn'+(i+1)).css({'display': 'none'});
-      $('#rm-btn'+(i+1)).css({'display': 'block'});
+      $('#rm-content'+(i+1)).css({'opacity': '0', 'transition': '0.4s'});
+      $('#rl-btn'+(i+1)).css({'opacity': '0'});
+      $('#rm-btn'+(i+1)).css({'opacity': '1'});
     });
   })
 }
