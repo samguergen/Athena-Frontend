@@ -1,4 +1,17 @@
 //GOOGLE ANALYTICS
+$(document).ready(function() {
+  console.log('jquery loading');
+
+  $('#top-hat').on('click', '#wsjcs-link', function(e){
+    // var section = $(e.target).closest('.core-section').attr('id');
+    var view = 1;
+
+    ga('send', 'event', 'View: '+ sectionTitles[section], 'Outbound Link', 'WSJ');
+
+  });
+
+});
+
 
 //metric to track user clicking WSJCS nav logo
 function handleOutboundLinkClicks(event) {
@@ -13,3 +26,6 @@ function handleOutboundLinkClicks(event) {
     ga('set', 'metric1', metricValue);
   }
 }
+
+
+
