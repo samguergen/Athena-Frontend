@@ -23,7 +23,12 @@ $(document).ready(function() {
 
 //social share toggle
   $('#social-toggle').click(function() {
-    $('#main-share').css({'display':'block'});
+    if( $('#main-share').css('display') == 'none') {
+      $('#main-share').css({'display':'block'});
+    }
+    else if( $('#main-share').css('display') == 'block') {
+      $('#main-share').css({'display':'none'});
+    }
   });
 
 //toggle read more/read less content
