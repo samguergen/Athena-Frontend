@@ -241,7 +241,6 @@ hr.purple {
 .grey-set .quote-wrapper img{
   height: 50px;
   width: 60px;
-  /*margin-left: 5%;*/
 }
 
 .grey-set .quote-wrapper img.second{  margin-top: 75px; }
@@ -405,11 +404,6 @@ footer .footer-links {
   display: flex;
   margin-top: 2%;
   margin-bottom: 2%;
-}
-
-footer .footer-links img{
-  /*-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0
-  filter: grayscale(100%);*/
 }
 
 footer .footer-links img#twitter {
