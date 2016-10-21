@@ -21,6 +21,8 @@ $(document).ready(function() {
       return false;
   });
 
+
+
 var contentArr = [
                     ['#rm-btn1', '#rl-btn1', '#rm-content1', '#qr1'],
                     ['#rm-btn2', '#rl-btn2', '#rm-content2', '#qr2'],
@@ -31,21 +33,23 @@ var contentArr = [
 
 function initToggle(){
   $.each( contentArr, function( i, content ) {
-    // console.log('contentArr i is ', contentArr[i], content);
+    console.log('contentArr i is ', i, contentArr[i], content);
+    var test ='#rm-btn'+i;
+    console.log('also ', test);
 
-    $(contentArr[i][0]).click(function(event) {
-      console.log('inside initToggle, contentArr i is ', contentArr[i]);
-      $(contentArr[i][2]).css({'display': 'inline'});
-      $(contentArr[i][1]).css({'display': 'block', 'margin-top': '-5%'});
-      $(contentArr[i][0]).css({'display': 'none'});
-      $(contentArr[i][3]).css({'margin-top': '13%', 'margin-bottom': '-10px'});
+    $(content[0]).click(function(event) {
+      console.log('inside initToggle, contentArr i is ', content);
+      $(content[2]).css({'display': 'inline'});
+      $(content[1]).css({'display': 'block', 'margin-top': '-5%'});
+      $(content[0]).css({'display': 'none'});
+      $(content[3]).css({'margin-top': '13%', 'margin-bottom': '-10px'});
     });
 
-    $(contentArr[i][1]).click(function(event) {
+    $(content[1]).click(function(event) {
       console.log('inside initToggle2');
-      $(contentArr[i][2]).css({'display': 'none'});
-      $(contentArr[i][1]).css({'display': 'none'});
-      $(contentArr[i][0]).css({'display': 'block'});
+      $(content[2]).css({'display': 'none'});
+      $(content[1]).css({'display': 'none'});
+      $(content[0]).css({'display': 'block'});
     });
   })
 }
