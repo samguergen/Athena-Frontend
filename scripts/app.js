@@ -22,32 +22,13 @@ $(document).ready(function() {
   });
 
 
-
 //displaying more text after read more btn is clicked
-  // $('.read-more').click(function(event) {
-  //   console.log('inside click func');
-  //   console.log('event is ', event.target);
-  //   console.log('event class is ', event.target.class);
-  //   $('.readmore-content').css({'display': 'inline'});
-  //   $('.btn-area .read-more').css({'display': 'none'});
-  //   $('.btn-area .read-less').css({'display': 'block', 'margin-top': '-5%'});
-  //   $('.quote-ref').css({'margin-top': '15%'});
-  // });
-
-//displaying less text after read less btn is clicked
-  // $('#read-less').click(function() {
-  //   console.log('inside unclick func');
-  //   $('#readmore-content').css({'display': 'none'});
-  //   $('.btn-area #read-less').css({'display': 'none'});
-  //   $('.btn-area #read-more').css({'display': 'block'});
-  // });
-
   $('#rm-btn1').click(function(event) {
     console.log('inside click 1');
     $('#rm-content1').css({'display': 'inline'});
-    $('.btn-area #rl-btn1').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rl-btn1').css({'display': 'block', 'margin-top':'-20px'});
     $('.btn-area #rm-btn1').css({'display': 'none'});
-    $('#qr1').css({'margin-top': '15%'});
+    $('#qr1').css({'margin-top': '13%', 'margin-bottom': '-10px'});
   });
 
 //displaying less text after read less btn is clicked
@@ -57,6 +38,82 @@ $(document).ready(function() {
     $('.btn-area #rl-btn1').css({'display': 'none'});
     $('.btn-area #rm-btn1').css({'display': 'block'});
   });
+
+
+
+  //displaying more text after read more btn is clicked
+  $('#rm-btn2').click(function(event) {
+    console.log('inside click 1');
+    $('#rm-content2').css({'display': 'inline'});
+    $('.btn-area #rl-btn2').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rm-btn2').css({'display': 'none'});
+    $('#qr2').css({'margin-top': '13%', 'margin-bottom': '-10px'});
+  });
+
+//displaying less text after read less btn is clicked
+  $('#rl-btn2').click(function() {
+    console.log('inside unclick func');
+    $('#rm-content2').css({'display': 'none'});
+    $('.btn-area #rl-btn2').css({'display': 'none'});
+    $('.btn-area #rm-btn2').css({'display': 'block'});
+  });
+
+
+//displaying more text after read more btn is clicked
+  $('#rm-btn3').click(function(event) {
+    console.log('inside click 1');
+    $('#rm-content3').css({'display': 'inline'});
+    $('.btn-area #rl-btn3').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rm-btn3').css({'display': 'none'});
+    $('#qr3').css({'margin-top': '13%', 'margin-bottom': '-10px'});
+  });
+
+//displaying less text after read less btn is clicked
+  $('#rl-btn3').click(function() {
+    console.log('inside unclick func');
+    $('#rm-content3').css({'display': 'none'});
+    $('.btn-area #rl-btn3').css({'display': 'none'});
+    $('.btn-area #rm-btn3').css({'display': 'block'});
+  });
+
+
+
+//displaying more text after read more btn is clicked
+  $('#rm-btn4').click(function(event) {
+    console.log('inside click 1');
+    $('#rm-content4').css({'display': 'inline'});
+    $('.btn-area #rl-btn4').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rm-btn4').css({'display': 'none'});
+    $('#qr4').css({'margin-top': '13%', 'margin-bottom': '-10px'});
+  });
+
+//displaying less text after read less btn is clicked
+  $('#rl-btn4').click(function() {
+    console.log('inside unclick func');
+    $('#rm-content4').css({'display': 'none'});
+    $('.btn-area #rl-btn4').css({'display': 'none'});
+    $('.btn-area #rm-btn4').css({'display': 'block'});
+  });
+
+
+
+//displaying more text after read more btn is clicked
+  $('#rm-btn5').click(function(event) {
+    console.log('inside click 1');
+    $('#rm-content5').css({'display': 'inline'});
+    $('.btn-area #rl-btn5').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rm-btn5').css({'display': 'none'});
+    $('#qr5').css({'margin-top': '13%', 'margin-bottom': '-10px'});
+  });
+
+//displaying less text after read less btn is clicked
+  $('#rl-btn5').click(function() {
+    console.log('inside unclick func');
+    $('#rm-content5').css({'display': 'none'});
+    $('.btn-area #rl-btn5').css({'display': 'none'});
+    $('.btn-area #rm-btn5').css({'display': 'block'});
+  });
+
 
 });
 
