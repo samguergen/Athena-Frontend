@@ -1,21 +1,21 @@
 //GOOGLE ANALYTICS
 $(document).ready(function() {
 
-  $('#top-hat').on('click', '#wsjcs-link', function(e){
-    // var section = $(e.target).closest('.core-section').attr('id');
-    var view = 1;
-    ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
-  });
-  $('#top-hat').on('click', '#athena-link', function(e){
-    // var section = $(e.target).closest('.core-section').attr('id');
-    var view = 1;
-    ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
-  });
-  $('#top-hat').on('click', '#wsjcs-link', function(e){
-    // var section = $(e.target).closest('.core-section').attr('id');
-    var view = 1;
-    ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
-  });
+  // $('#top-hat').on('click', '#wsjcs-link', function(e){
+  //   // var section = $(e.target).closest('.core-section').attr('id');
+  //   var view = 1;
+  //   ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
+  // });
+  // $('#top-hat').on('click', '#athena-link', function(e){
+  //   // var section = $(e.target).closest('.core-section').attr('id');
+  //   var view = 1;
+  //   ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
+  // });
+  // $('#top-hat').on('click', '#wsjcs-link', function(e){
+  //   // var section = $(e.target).closest('.core-section').attr('id');
+  //   var view = 1;
+  //   ga('send', 'event', 'View: '+ view, 'Outbound Link', 'WSJ');
+  // });
 
 
     // Social Share For Header
@@ -50,11 +50,11 @@ $(document).ready(function() {
 
 
 //metric to track user clicking WSJCS nav logo
-function handleOutboundLinkClicks(event) {
+function handleOutboundLinkClicks(label) {
   ga('send', 'event', {
-    eventCategory: 'Outbound Link',
-    eventAction: 'click',
-    eventLabel: event.target.href,
+    eventCategory: 'Frame',
+    eventAction: 'Click',
+    eventLabel: label,
     transport: 'beacon'
   });
 
