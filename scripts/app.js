@@ -22,8 +22,9 @@ $(document).ready(function() {
   });
 
 
+//toggle read more/read less content
 function initToggle(){
-  $.each( new Array(5), function(i){
+  $.each(new Array(5), function(i){
 
     $('#rm-btn'+(i+1)).click(function() {
       $('#rm-content'+(i+1)).css({'display': 'inline'});
@@ -42,25 +43,5 @@ function initToggle(){
 
 initToggle();
 
-
 });
-
-
-
-
-//GOOGLE ANALYTICS
-
-//metric to track user clicking WSJCS nav logo
-function handleOutboundLinkClicks(event) {
-  ga('send', 'event', {
-    eventCategory: 'Outbound Link',
-    eventAction: 'click',
-    eventLabel: event.target.href
-  });
-
-  function countLinkClicks(){
-    var metricValue = '+1';
-    ga('set', 'metric1', metricValue);
-  }
-}
 
