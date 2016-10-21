@@ -1,6 +1,5 @@
 //GOOGLE ANALYTICS
 $(document).ready(function() {
-  console.log('jquery loading');
 
   $('#top-hat').on('click', '#wsjcs-link', function(e){
     // var section = $(e.target).closest('.core-section').attr('id');

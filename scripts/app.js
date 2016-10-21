@@ -23,11 +23,11 @@ $(document).ready(function() {
 
 //social share toggle
   $('#social-toggle').click(function() {
-    if( $('#main-share').css('display') == 'none') {
-      $('#main-share').css({'display':'block'});
+    if( $('#main-share').css('opacity') == '0') {
+      $('#main-share').css({'opacity':'1'});
     }
-    else if( $('#main-share').css('display') == 'block') {
-      $('#main-share').css({'display':'none'});
+    else if( $('#main-share').css('opacity') == '1') {
+      $('#main-share').css({'opacity':'0'});
     }
   });
 

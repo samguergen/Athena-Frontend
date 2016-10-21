@@ -53,27 +53,10 @@ a:link, a:visited {
   height: 80%;
 }
 
-/*#main-share {
-  display: flex;
-  width: 200px;
-  margin-left: -100px;
-}*/
-
-/*#hat-right #social-toggle #main-share {
-  display: flex;
-  width: 200px;
-  margin-left: -100px;
-}*/
-
-/*img#btn-top {
-  margin-top: 90%;
-}*/
-
 #main-share {
-  display: none;
+  opacity: 0;
+  transition: 0.4s;
 }
-
-
 
 .mainbod {
   height: 100%;
