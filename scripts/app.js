@@ -22,46 +22,8 @@ $(document).ready(function() {
   });
 
 
-var contentArr = [
-                    ['#rm-btn1', '#rl-btn1', '#rm-content1', '#qr1'],
-                    ['#rm-btn2', '#rl-btn2', '#rm-content2', '#qr2'],
-                    ['#rm-btn3', '#rl-btn3', '#rm-content3', '#qr3'],
-                    ['#rm-btn4', '#rl-btn4', '#rm-content4', '#qr4'],
-                    ['#rm-btn5', '#rl-btn5', '#rm-content5', '#qr5']
-                  ];
-
 function initToggle(){
-  $.each( contentArr, function( i, content ) {
-    console.log('contentArr i is ', i, contentArr[i], content);
-    var test ='#rm-btn'+i;
-    console.log('also ', test);
-
-    $(content[0]).click(function(event) {
-      console.log('inside initToggle, contentArr i is ', content);
-      $(content[2]).css({'display': 'inline'});
-      $(content[1]).css({'display': 'block', 'margin-top': '-5%'});
-      $(content[0]).css({'display': 'none'});
-      $(content[3]).css({'margin-top': '13%', 'margin-bottom': '-10px'});
-    });
-
-    $(content[1]).click(function(event) {
-      console.log('inside initToggle2');
-      $(content[2]).css({'display': 'none'});
-      $(content[1]).css({'display': 'none'});
-      $(content[0]).css({'display': 'block'});
-    });
-  })
-}
-
-// initToggle();
-
-//v2
-
-function initToggle2(){
   $.each( new Array(5), function(i){
-    // console.log('i is ', i);
-    // var test ='#rm-btn'+(i+1);
-    // console.log('alsoooo ', test, typeof(test));
 
     $('#rm-btn'+(i+1)).click(function() {
       $('#rm-content'+(i+1)).css({'display': 'inline'});
@@ -78,10 +40,7 @@ function initToggle2(){
   })
 }
 
-initToggle2();
-
-
-
+initToggle();
 
 
 });
