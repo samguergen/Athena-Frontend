@@ -155,11 +155,11 @@ var contentArr = [
                     ['#rm-btn3', '#rl-btn3', '#rm-content3', '#qr3'],
                     ['#rm-btn4', '#rl-btn4', '#rm-content4', '#qr4'],
                     ['#rm-btn5', '#rl-btn5', '#rm-content5', '#qr5']
-                  ]
+                  ];
 
-function initToggle(){
-  for (var i = 0; i < contentArr.length; i++){
-    console.log('contentArr i is ', contentArr[i]);
+// function initToggle(){
+  $.each( contentArr, function( i, content ) {
+    console.log('contentArr i is ', contentArr[i], content);
 
     $(contentArr[i][0]).click(function(event) {
       console.log('inside initToggle, contentArr i is ', contentArr[i]);
@@ -176,11 +176,25 @@ function initToggle(){
       $(contentArr[i][0]).css({'display': 'block'});
     });
   }
-}
 
-initToggle();
+  )
+// }
+
+// initToggle();
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //metric to track user clicking WSJCS nav logo
