@@ -21,6 +21,10 @@ $(document).ready(function() {
       return false;
   });
 
+//social share toggle
+  $('#social-toggle').click(function() {
+    $('#main-share').css({'display':'block'});
+  });
 
 //toggle read more/read less content
 function initToggle(){
