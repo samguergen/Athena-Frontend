@@ -21,6 +21,8 @@ $(document).ready(function() {
       return false;
   });
 
+
+
 //displaying more text after read more btn is clicked
   // $('.read-more').click(function(event) {
   //   console.log('inside click func');
@@ -32,21 +34,28 @@ $(document).ready(function() {
   //   $('.quote-ref').css({'margin-top': '15%'});
   // });
 
-$('.read-more').click(function(event) {
-  console.log('event is ', event.target);
-  console.log('event id is ', event.target.id);
-  console.log('this is ', $(this));
+//displaying less text after read less btn is clicked
+  // $('#read-less').click(function() {
+  //   console.log('inside unclick func');
+  //   $('#readmore-content').css({'display': 'none'});
+  //   $('.btn-area #read-less').css({'display': 'none'});
+  //   $('.btn-area #read-more').css({'display': 'block'});
+  // });
+
+  $('#rm-btn1').click(function(event) {
+    console.log('inside click 1');
+    $('#rm-content1').css({'display': 'inline'});
+    $('.btn-area #rl-btn1').css({'display': 'block', 'margin-top': '-5%'});
+    $('.btn-area #rm-btn1').css({'display': 'none'});
+    $('#qr1').css({'margin-top': '15%'});
   });
 
-  // $spin = this.$('.readmore-content');
-
-
 //displaying less text after read less btn is clicked
-  $('#read-less').click(function() {
+  $('#rl-btn1').click(function() {
     console.log('inside unclick func');
-    $('#readmore-content').css({'display': 'none'});
-    $('.btn-area #read-less').css({'display': 'none'});
-    $('.btn-area #read-more').css({'display': 'block'});
+    $('#rm-content1').css({'display': 'none'});
+    $('.btn-area #rl-btn1').css({'display': 'none'});
+    $('.btn-area #rm-btn1').css({'display': 'block'});
   });
 
 });

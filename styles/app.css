@@ -273,6 +273,7 @@ hr.purple {
   line-height: 1.8;
   font-size: 12px;
   color: rgb(75,75,75);
+  /*margin-top: -2%;*/
 }
 
 .grey-set .jumbo-descr::first-line {
