@@ -42,6 +42,19 @@ a:link, a:visited {
 
 #top-hat #sgc .first{ text-decoration: none; }
 
+.hamburger-menu {
+  opacity: 0;
+  transition: 0.4s;
+  background: black;
+  width: 200px;
+  height: 300px;
+  margin-top: 60px;
+  border: 1px solid white;
+
+  position: fixed;
+  z-index: 999;
+}
+
 
 #hat-right #lockup img {
   height: 20px;

@@ -1,0 +1,536 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var,
+u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q { quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/* End Reset */
+
+html, body {
+	width:100%;
+	height:100%;
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+}
+/* HAMBURGER STYLES */
+ .hamburger {
+    position: relative;
+    left:0px;
+    float: left;
+    overflow: hidden;
+    width: 25px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+    -webkit-transition: background .5s;
+    transition: background .5s;
+}
+.hamburger:focus {
+    outline: 0;
+}
+.hamburger span {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 15px;
+    right: 0px;
+    height: 2px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: background 0s;
+    transition: background 0s;
+}
+.hamburger span::after,
+.hamburger span::before {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.hamburger span::before {
+    top: -8px;
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+}
+.hamburger span::after {
+    bottom: -8px;
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+}
+
+.menu-view .hamburger span {
+    background: 0 0
+}
+.menu-view .hamburger span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+.menu-view .hamburger span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+/* END HAMBURGER STYLES */
+#pinned-header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	z-index: 175;
+	text-align: center;
+}
+#top-hat{
+	/*max-width: 960px;*/
+	height: 100%;
+	margin: 0 auto;
+}
+#hat-right > div{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+#lockup{line-height: 60px;}
+#top-hat h2{
+	float: left;
+	height: 100%;
+	line-height: 60px !important;
+	font: 17.5px Georgia, serif;
+	color: #fff;
+	margin: 0 15px;
+}
+
+#top-hat #hat-right{
+	float: right;
+	height: 60px;
+}
+#hat-right > div img{
+	height: 100%;
+	width: auto;
+	margin-top: 0;
+	vertical-align: middle;
+}
+#hat-right #lockup img{
+	height: 40%;
+	margin-right: 8px;
+}
+#wsjcs-logo{
+	padding-left: 10px;
+	margin-left: 2px;
+	border-left:solid 1px #fff;
+}
+#sgc{
+	display: inline-block;
+	height: 100%;
+}
+#sgc span{
+	font: 10.5px Arial, sans-serif;
+	color:#eee;
+	display: inline-block;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+#sgc .whats-this{
+	position: relative;
+	margin-left: 5px;
+	text-decoration: underline;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.whats-this-tooltip{
+	position: absolute;
+	top: 62px;
+	left:0px;
+	width: 240px;
+	padding: 35px 15px 15px;
+	background-color: #fff;
+	text-align: left;
+	font: 12px 'Times New Roman', serif;
+	line-height: 150%;
+	color: #000;
+	text-transform: none;
+	border: solid 2px #000;
+	z-index: 3000;
+}
+.whats-this-tooltip::after, .whats-this-tooltip::before {
+	bottom: 100%;
+	left: 37px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.whats-this-tooltip::after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.whats-this-tooltip::before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000000;
+	border-width: 18px;
+	margin-left: -18px;
+}
+.whats-this-close{
+	position: absolute;
+	top: 8px;
+	right: 7px;
+	font-size: 24px;
+	cursor: pointer;
+}
+#social-toggle{
+	width: 60px;
+	position: relative;
+	cursor: pointer;
+}
+#social-toggle img{
+	cursor: pointer;
+}
+#social-toggle.share-open{
+	background-color: #272727;
+}
+#main-share{
+	position: absolute;
+	top:60px;
+	left: 0px;
+	z-index: 100;
+	display: none;
+	cursor: pointer;
+}
+#social-toggle.share-open #main-share{
+	display: block;
+}
+#main-share .at-icon-wrapper,
+#main-share .at-icon-wrapper svg{
+	width: 60px !important;
+	height: 60px !important;
+	display: block !important;
+}
+#main-share .at-share-btn{
+	display: block !important;
+	max-width: none !important;
+	max-height: none !important;
+	margin: 0px !important;
+}
+#main-share .at-share-btn:hover{
+	-webkit-transform:none !important;
+	transform:none !important;
+}
+/* Menu */
+#menu{
+	position: fixed;
+	top:60px;
+	left: 0px;
+	width: 550px;
+	/*height: calc(100vh - 50px - 10px);
+	padding-top: 10px;
+	font: 32px 'Orator W01 Medium', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -2px;*/
+	z-index: 2;
+	background-color: rgba(0,0,0,0.9);
+	color:#fff;
+	opacity: 0;
+	visibility: hidden;
+	transition:opacity 0.75s, visibility 0s 0.75s, z-index 0s 0.75s;
+}
+.menu-view #menu{
+	z-index: 2000;
+	visibility: visible;
+	opacity: 1;
+	transition:opacity 0.75s, visibility 0s, z-index 0s;
+}
+#menu li{
+	transition:all 0s;
+}
+/*#menu li:hover,
+#menu li.current{
+	background-color: #000;
+	transition:all 0.75s;
+}*/
+#menu a{
+	color: #fff;
+	line-height: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all 0.75s;
+}
+#menu li:hover a,
+#menu li.current a{
+	color: #efd31a;
+}
+
+#container{
+
+}
+.hero{
+	text-align: center;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+	background-image: linear-gradient(transparent 0,rgba(0,0,0, 0.25) 50%,#000 90%),url(../FPO.jpg);
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 95vh;
+	width: 100%;
+}
+
+#main{
+	max-width: 960px;
+	margin: 85px auto 0;
+}
+#main article p{
+	max-width: 600px;
+	margin: 0 auto 30px;
+	line-height: 2.25em;
+}
+#main article p.illuminate:first-letter{
+	font:116px Georgia, serif;
+	display:inline-block;
+	float: left;
+	line-height: 105px;
+	margin-right: 15px;
+}
+#main article p a{
+	text-decoration: underline;
+	color: #006a9a;
+}
+#main article .link{
+	max-width: 600px;
+	margin:  0 auto 30px;
+	text-align: center;
+}
+#main article .link a{
+	font-size: 22px;
+	color: #006a9a;
+	font-style: italic;
+	border-bottom: solid 1px #7fb4cc;
+	line-height: 1.45em;
+}
+#main article blockquote{
+	width: 325px;
+	color: #006a9a;
+	font-size: 24px;
+	line-height: 1.35em;
+	font-style: italic;
+	box-sizing:border-box;
+}
+#main article blockquote h3{
+	font: bold 90px Georgia, serif;
+	font-style: normal;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+#main article blockquote .quote{
+	font-size: 14px;
+	line-height: 1.35em;
+	margin-top: 14px;
+}
+#main article blockquote.left{
+	float: left;
+	text-align: right;
+	padding: 0 28px 0 30px;
+	border-right: solid 2px #006a9a;
+	margin-right: 35px;
+}
+#main article blockquote.right{
+	float: right;
+	padding: 0 30px 0 28px;
+	border-left: solid 2px #006a9a;
+	margin-left: 35px;
+}
+
+
+#site-footer{
+	height: 155px;
+	background-color: #262626;
+	color: #fff;
+	text-align: center;
+	padding-top: 35px;
+}
+
+@media screen and (max-width: 980px) {
+	#sgc{
+		margin-left: 10px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	#pinned-header,#top-hat{
+		height: 80px;
+		text-align: left;
+	}
+	.hamburger{
+		height: 50%;
+	}
+	.hamburger span{
+		top: 20px;
+	}
+	#top-hat h2{
+		float: none;
+		display: inline;
+		font-size: 15px;
+		background-color: #000;
+		height: 50%;
+		line-height: 40px !important;
+	}
+	#top-hat #sgc{
+		height: 100%;
+	}
+	#lockup{line-height: 40px;}
+	#hat-bottom{
+		width: 100%;
+		height: 50%;
+		position: relative;
+		text-align: left;
+	}
+	#sgc span{
+		line-height: 40px;
+	}
+	#top-hat #hat-right{
+		height: 100%;
+		position: relative;
+	}
+	#hat-right > div{
+		float: right;
+		height: 100%;
+	}
+	#social-toggle{
+		width: 40px;
+		position: absolute;
+		right: 0;
+		top:-100%;
+	}
+	#main-share{
+		top:40px;
+	}
+	#main-share .at-icon-wrapper,
+	#main-share .at-icon-wrapper svg{
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.hero{
+		background-size: contain;
+		background-position: 0 60px;
+		height: 57.5vw;
+		padding-top: 60px;
+	}
+	.article-text{
+		font-size: 17px;
+	}
+	#main article p{
+		padding: 0 18px;
+	}
+	#main article p.illuminate:first-letter{
+		font:48px Georgia, serif;
+		line-height: 54px;
+		margin-right: 5px;
+	}
+	#main article .link{
+		padding: 0 15px;
+	}
+	#main article .link a{
+		font-size: 20px;
+	}
+	#main article blockquote.left,
+	#main article blockquote.right{
+		float:none;
+		width: auto;
+		margin:0px 15px 30px;
+		padding: 20px;
+		text-align: center;
+		border: solid 2px #006a9a;
+		border-width: 2px 0;
+	}
+	#site-footer{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 640px) {
+	#sgc{
+		max-width: 95px;
+		line-height: 120%;
+		padding-top: 3px;
+	}
+	#sgc span{
+		line-height: 120%
+	}
+	#sgc .whats-this{
+		margin: 0;
+	}
+	.whats-this-tooltip{
+		top: 40px;
+	}
+}
+@media screen and (max-width: 560px) {
+	.article-text{
+		font-size: 13px;
+	}
+	#site-footer{
+		height: auto;
+		font-size: 3.25vw;
+		padding: 30px 35px;
+		line-height: 140%;
+	}
+
+}
+@media screen and (max-width: 380px) {
+	#hat-right #lockup img {
+    height: 40%;}
+	/*#sgc{
+		width: 65px;
+		height: 30px;
+		line-height: 8px;
+		padding-top: 5px;
+	}
+	#sgc span{
+		display: inline;
+		font-size: 8px;
+		line-height: 8px;
+	}*/
+}

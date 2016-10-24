@@ -23,11 +23,22 @@ $(document).ready(function() {
 
 //social share toggle
   $('#social-toggle').click(function() {
+    console.log('social toggle clicked');
     if( $('#main-share').css('opacity') == '0') {
       $('#main-share').css({'opacity':'1'});
     }
     else if( $('#main-share').css('opacity') == '1') {
       $('#main-share').css({'opacity':'0'});
+    }
+  });
+
+  $('.hamburger').click(function() {
+    console.log('hamburger clicked');
+    if( $('.hamburger-menu').css('opacity') == '0') {
+      $('.hamburger-menu').css({'opacity':'1'});
+    }
+    else if( $('.hamburger-menu').css('opacity') == '1') {
+      $('.hamburger-menu').css({'opacity':'0'});
     }
   });
 
