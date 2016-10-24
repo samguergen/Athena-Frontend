@@ -58,11 +58,19 @@ function handleOutboundLinkClicks(label) {
     transport: 'beacon'
   });
 
+  function handleAthenaLinkClicks(label) {
+  ga('send', 'event', {
+    eventCategory: 'MoreFromAthenaHealth',
+    eventAction: 'Click',
+    eventLabel: label,
+    transport: 'beacon'
+  });
+
   function countLinkClicks(){
     var metricValue = '+1';
     ga('set', 'metric1', metricValue);
   }
-}
+
 
 
 
