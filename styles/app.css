@@ -50,12 +50,27 @@ a:link, a:visited {
   width: 200px;
   height: 300px;
   margin-top: 60px;
-  border: 1px solid white;
   border-radius: 5px;
   position: fixed;
   z-index: 999;
 }
 
+.hamburger-menu ol li {
+  margin: 7%;
+  padding-bottom: 5px;
+  padding-top: 12px;
+  border-bottom: 1px solid grey;
+  font-family: ambroise;
+  text-transform: uppercase;
+  transform: scale(1,3);
+  -webkit-transform: scale(1,2);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.hamburger-menu ol li .ham-num {
+  padding-right: 7%;
+}
 
 #hat-right #lockup img {
   height: 20px;
