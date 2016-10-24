@@ -46,11 +46,12 @@ a:link, a:visited {
   opacity: 0;
   transition: 0.4s;
   background: black;
+  color: white;
   width: 200px;
   height: 300px;
   margin-top: 60px;
   border: 1px solid white;
-
+  border-radius: 5px;
   position: fixed;
   z-index: 999;
 }
