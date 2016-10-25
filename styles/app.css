@@ -561,23 +561,35 @@ a:link {
   .mainbod img {
       height: 300px;
   }
-.predict .predict-title {
-    margin-top: -200px;
-    margin-left: -20%;
+  .predict .predict-title {
+      margin-top: -200px;
+      margin-left: -20%;
+    }
+  .predict .predict-content {
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-top: 700px;
   }
-.predict .predict-content {
-  display: none;
-}
-.predict-jumbo .contact-photos {
-  margin-top: -200px;
-}
-.predict-jumbo .contact-photos .first-row {
-  margin-top: 0px;
-  order: 2;
-}
-.predict-jumbo .contact-photos .second-row {
+  .predict-jumbo .contact-photos {
+    margin-top: -200px;
+  }
+  .predict-jumbo .contact-photos img {
+    margin-top: 10px;
+  }
+  .predict-jumbo .contact-photos .first-row {
+    margin-top: 0px;
+    order: 2;
+  }
+  .predict-jumbo .contact-photos .second-row {
     order: 1;
     margin-top: 400px;
-}
+  }
+  #person3 {
+    margin-left: 50%;
+  }
+  .second-set {
+    margin-top: 200px;
+  }
 
 }
