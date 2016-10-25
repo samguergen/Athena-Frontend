@@ -188,7 +188,6 @@ a:link, a:visited {
 .predict-jumbo .contact-photos {
   display: flex;
   flex-direction: column;
-  flex-flow: row wrap;
 }
 
 .predict-jumbo .contact-photos img {
@@ -202,7 +201,6 @@ a:link, a:visited {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  flex-flow: row wrap;
 }
 
 .predict-jumbo .contact-photos .first-row a, .predict-jumbo .contact-photos .second-row a {
@@ -580,6 +578,7 @@ a:link {
   }
   .predict-jumbo .contact-photos {
     margin-top: -200px;
+    flex-flow: row wrap;
   }
   .predict-jumbo .contact-photos img {
     margin-top: 10px;
@@ -591,6 +590,9 @@ a:link {
   .predict-jumbo .contact-photos .second-row {
     order: 1;
     margin-top: 400px;
+  }
+  .predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
+    flex-flow: row wrap;
   }
   #person3 {
     margin-left: 50%;
