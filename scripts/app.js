@@ -50,7 +50,7 @@ function initToggle(){
       $('#rm-content'+(i+1)).css({'opacity': '1', 'transition': '0.4s'});
       $('#rl-btn'+(i+1)).css({'opacity': '1', 'margin-top': '-5%', 'height': '5%'});
       $('#rm-btn'+(i+1)).css({'opacity': '0'});
-      $('#qr'+(i+1)).css({'margin-top': '13%', 'margin-bottom': '-10px'});
+      $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
     });
 
     $('#rl-btn'+(i+1)).click(function() {
