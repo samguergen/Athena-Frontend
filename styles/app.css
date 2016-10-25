@@ -590,6 +590,19 @@ a:link {
   }
   .second-set {
     margin-top: 200px;
+    height: 200px;
+  }
+  .second-set .fpo-header {
+    visibility: hidden;
+  }
+  .quote-wrapper {
+    margin-top: 80px;
+  }
+  .quote-ref {
+    margin-top: -250px !important;
+  }
+  .grey-set .jumbo-descr {
+    padding-top: 230px;
   }
 
 }
