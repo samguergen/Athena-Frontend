@@ -560,8 +560,11 @@ a:link {
 /* mobile */
 
 @media screen and (max-width: 425px){
+  #top-hat h2 {
+  font-size: 50%;
+}
   #hat-right #social-toggle img {
-    margin-top: -70px;
+    /*margin-top: -70px;*/
   }
   .mainbod img {
       height: 300px;
@@ -643,3 +646,15 @@ a:link {
   }
 
 }
+
+
+
+/* very small mobile */
+
+/*#top-hat h2 {
+  font-size: 50%;
+}
+#social-toggle img {
+  margin-top: 10px;
+  height: 40%;
+}*/
