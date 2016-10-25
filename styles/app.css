@@ -17,6 +17,11 @@
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.svg#Ambroise Francois") format("svg");
 }
 
+
+html, body, #pinned-head {
+  max-width: 100%;
+}
+
 a:link, a:visited {
   text-decoration: none !important;
 }
@@ -122,7 +127,7 @@ a:link, a:visited {
   width: 100%;
   color: rgb(75,75,75);
   text-align: center;
-  font-size: 200px;
+  font-size: 8rem;
 }
 
 .predict {
@@ -183,6 +188,7 @@ a:link, a:visited {
 .predict-jumbo .contact-photos {
   display: flex;
   flex-direction: column;
+  flex-flow: row wrap;
 }
 
 .predict-jumbo .contact-photos img {
@@ -196,6 +202,7 @@ a:link, a:visited {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+  flex-flow: row wrap;
 }
 
 .predict-jumbo .contact-photos .first-row a, .predict-jumbo .contact-photos .second-row a {
@@ -498,11 +505,12 @@ a:link {
   cursor: pointer;
 }
 
+/* smaller screen, tablet */
+
 @media screen and (max-width: 750px){
  .quote-wrapper .quote {
     font-size: 25px !important;
   }
-
   .predict .predict-title h2 {
     font-size: 4rem;
   }
@@ -515,27 +523,21 @@ a:link {
 }
 
 @media screen and (max-width: 665px){
-
   .grey-set, .white-set {
     height: 600px !important;
   }
-
   .predict .predict-title h2 {
     font-size: 3rem;
   }
-
-.predict .predict-content {
-  margin-top: -60px;
-}
-
+  .predict .predict-content {
+    margin-top: -60px;
+  }
  .quote-wrapper {
     margin-bottom: 50px;
   }
-
   .quote-ref {
     margin-top: 100px !important;
   }
-
 }
 
 @media screen and (max-width: 560px){
@@ -548,4 +550,34 @@ a:link {
    .quote-wrapper {
     padding-bottom: 120px;
   }
+}
+
+/* mobile */
+
+@media screen and (max-width: 425px){
+  #hat-right #social-toggle img {
+    margin-top: -70px;
+  }
+  .mainbod img {
+      height: 300px;
+  }
+.predict .predict-title {
+    margin-top: -200px;
+    margin-left: -20%;
+  }
+.predict .predict-content {
+  display: none;
+}
+.predict-jumbo .contact-photos {
+  margin-top: -200px;
+}
+.predict-jumbo .contact-photos .first-row {
+  margin-top: 0px;
+  order: 2;
+}
+.predict-jumbo .contact-photos .second-row {
+    order: 1;
+    margin-top: 400px;
+}
+
 }
