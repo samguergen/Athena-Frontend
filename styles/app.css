@@ -569,22 +569,34 @@ a:link {
   .mainbod img {
       height: 300px;
   }
+  .fpo h2 {
+    font-size: 8rem;
+  }
   .predict .predict-title {
       margin-top: -200px;
-      margin-left: -20%;
+      margin-left: -10%;
     }
+  .predict .predict-title h2 {
+    font-size: 2rem;
+  }
   .predict .predict-content {
     text-transform: uppercase;
     line-height: 1.3;
     font-weight: bold;
     margin-top: 660px;
   }
+
   .predict-jumbo .contact-photos {
     margin-top: -200px;
     flex-flow: row wrap;
   }
+  .predict-jumbo .contact-photos .img-area {
+    padding: 5px;
+  }
   .predict-jumbo .contact-photos img {
     margin-top: 10px;
+    height: 150px;
+    width: 150px;
   }
   .predict-jumbo .contact-photos .first-row {
     margin-top: 0px;
@@ -605,6 +617,7 @@ a:link {
   }
   .img-descr {
     line-height: 0.7;
+    width: 150px;
   }
   .img-descr .descr-top {
     margin-bottom: 5px;
@@ -651,6 +664,27 @@ a:link {
 
 /* very small mobile */
 
+@media screen and (max-width: 375px){
+  .predict-jumbo .contact-photos .first-row {
+    margin-left: 4%;
+  }
+  .predict-jumbo .contact-photos {
+    margin-top: -300px;
+  }
+  .img-descr .descr-top {
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .predict .predict-content {
+    margin-top: 500px;
+  }
+  .quote-wrapper {
+    margin-top: 87px;
+  }
+
+
+}
 /*#top-hat h2 {
   font-size: 50%;
 }
