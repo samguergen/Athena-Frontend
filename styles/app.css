@@ -150,7 +150,7 @@ a:link, a:visited {
     line-height: 1.1;
     padding: 15px;
     text-align: center;
-    font-size: 80px;
+    font-size: 5rem;
     color: rgb(35,35,35);
 }
 
@@ -244,7 +244,7 @@ hr.purple {
 }
 
 .second-set .fpo-header {
-  font-size: 180px;
+  font-size: 10rem;
   line-height: 400px;
   height: 400px;
   text-align: center;
@@ -304,17 +304,11 @@ hr.purple {
 
 .grey-set .jumbo-descr {
   text-align: justify;
-/*  width: 50%;*/
   line-height: 1.8;
   font-size: 12px;
   color: rgb(75,75,75);
 }
 
-@media screen and (min-width: 665px){
-  .grey-set .jumbo-descr {
-    width: 50%;
-  }
-}
 
 .grey-set .jumbo-descr::first-line {
   font-weight: bold;
@@ -504,6 +498,21 @@ a:link {
   cursor: pointer;
 }
 
+@media screen and (max-width: 750px){
+ .quote-wrapper .quote {
+    font-size: 25px !important;
+  }
+
+  .predict .predict-title h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .grey-set, .white-set {
+    height: 550px !important;
+  }
+}
 
 @media screen and (max-width: 665px){
 
@@ -511,18 +520,28 @@ a:link {
     height: 600px !important;
   }
 
- .quote-wrapper {
-    margin-bottom: 50px;
+  .predict .predict-title h2 {
+    font-size: 3rem;
   }
 
-  .quote-wrapper .quote {
-    font-size: 25px !important;
+.predict .predict-content {
+  margin-top: -60px;
+}
+
+ .quote-wrapper {
+    margin-bottom: 50px;
   }
 
   .quote-ref {
     margin-top: 100px !important;
   }
 
+}
+
+@media screen and (max-width: 560px){
+  .quote-wrapper .quote {
+      font-size: 20px !important;
+    }
 }
 
 @media screen and (max-width: 518px){
