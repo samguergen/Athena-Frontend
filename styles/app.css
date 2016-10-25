@@ -238,6 +238,10 @@ a:link, a:visited {
 .img-descr .descr-top {
   line-height: 2.3;
   font-size: 15px;
+  font-family: "ambroise-francois-std";
+  text-transform: uppercase;
+  transform: scale(1,3);
+  -webkit-transform: scale(1,2);
 }
 
 hr.purple {
@@ -281,7 +285,6 @@ hr.purple {
 
 .grey-set .quote-wrapper .quote {
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 30px;
   font-family: "ambroise-francois-std";
   font-family: ambroise;
@@ -505,6 +508,10 @@ a:link {
   cursor: pointer;
 }
 
+.hidden-quote-ref {
+  display: none;
+}
+
 /* smaller screen, tablet */
 
 @media screen and (max-width: 750px){
@@ -569,7 +576,7 @@ a:link {
     text-transform: uppercase;
     line-height: 1.3;
     font-weight: bold;
-    margin-top: 700px;
+    margin-top: 660px;
   }
   .predict-jumbo .contact-photos {
     margin-top: -200px;
@@ -588,6 +595,16 @@ a:link {
   #person3 {
     margin-left: 50%;
   }
+  #person3 .smaller-fpo {
+    left: 50%;
+  }
+  .img-descr {
+    line-height: 0.7;
+  }
+  .img-descr .descr-top {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
   .second-set {
     margin-top: 200px;
     height: 200px;
@@ -599,10 +616,23 @@ a:link {
     margin-top: 80px;
   }
   .quote-ref {
-    margin-top: -250px !important;
+    margin-top: -260px !important;
   }
-  .grey-set .jumbo-descr {
+  .jumbo-descr {
     padding-top: 230px;
+  }
+  .quote-ref .hidden-quote-ref {
+    display: block;
+  }
+  .quote-ref .name-quote-ref {
+    padding-bottom: 10px;
+    font-family: "ambroise-francois-std";
+    text-transform: uppercase;
+    transform: scale(1,3);
+    -webkit-transform: scale(1,2);
+  }
+  .quote-ref hr.purple {
+    width: 100%;
   }
 
 }
