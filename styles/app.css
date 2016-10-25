@@ -613,7 +613,7 @@ a:link {
   .predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
     flex-flow: row wrap;
   }
-  #person3 {
+  .contact-photos #person3 {
     margin-left: 50%;
   }
   #person3 .smaller-fpo {
