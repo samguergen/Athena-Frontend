@@ -71,6 +71,15 @@
   }
 }
 
+@media screen and (max-width: 600px){
+  .white-jumbo {
+      height: 600px;
+    }
+  footer .footer-note {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 560px){
   .quote-wrapper .quote {
       font-size: 20px !important;
@@ -211,9 +220,11 @@
     font-size: 15px !important;
   }
   .white-jumbo .more-athena-imgs {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column !important;
   }
   .white-jumbo .more-athena-imgs .img-section{
+    display: flex;
     flex-direction: column;
   }
   .white-jumbo .more-athena-imgs .img-section img {
@@ -222,11 +233,13 @@
   }
   .white-jumbo .more-athena-imgs .img-section .img-legend {
     width: 100%;
+    padding-top: 20px;
     padding-left: 0;
     font-family: "ambroise-francois-std";
     text-transform: uppercase;
   }
   .white-jumbo .more-athena-imgs .img-section .img-legend .first{
+    width: 200px;
     line-height: 1.2;
     font-size: 12px;
     transform: scale(1,3);
