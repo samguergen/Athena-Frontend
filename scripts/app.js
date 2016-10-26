@@ -60,6 +60,10 @@ $(document).ready(function() {
       $('#rm-content'+(i+1)).css({'opacity': '0'});
       $('#rl-btn'+(i+1)).css({'opacity': '0'});
       $('#rm-btn'+(i+1)).css({'opacity': '1'});
+      if ($(window).width() < 426) {
+        $('.grey-set').removeClass("bigger-container");
+        $('.white-set').removeClass("bigger-container");
+      }
     });
   })
 }
