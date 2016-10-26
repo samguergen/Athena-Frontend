@@ -352,7 +352,7 @@ hr.purple {
 }
 
 .readmore-content, .btn-area .read-less {
-  position: absolute;
+  /*position: absolute;*/
   opacity: 0;
   height: 0;
   overflow: hidden;
