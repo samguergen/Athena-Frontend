@@ -53,7 +53,6 @@ $(document).ready(function() {
       if ($(window).width() < 426) {
         console.log('adding bigger container');
         $(this).closest('.container').addClass("bigger-container");
-        // $(this).closest('.container').css({'height': '850px !important'});
       }
     });
 

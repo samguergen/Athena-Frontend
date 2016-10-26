@@ -768,6 +768,12 @@ a:link {
 /* very small mobile (except iphone5) */
 
 @media screen and (max-width: 375px){
+  .grey-set, white-set {
+    height: 700px !important;
+  }
+  .bigger-container {
+    height: 900px !important;
+  }
   .predict-jumbo .contact-photos .first-row {
     margin-left: 4%;
   }
