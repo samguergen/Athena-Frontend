@@ -637,6 +637,12 @@ a:link {
   .second-set .fpo-header {
     visibility: hidden;
   }
+  .third-set {
+    margin-top: 0;
+  }
+  .bigger-container {
+    height: 770px !important;
+  }
   .quote-wrapper {
     margin-top: 80px;
   }

@@ -50,6 +50,10 @@ $(document).ready(function() {
       $('#rl-btn'+(i+1)).css({'opacity': '1', 'margin-top': '-5%', 'height': '5%'});
       $('#rm-btn'+(i+1)).css({'opacity': '0'});
       $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
+      if ($(window).width() < 426) {
+        $('.grey-set').addClass("bigger-container");
+        $('.white-set').addClass("bigger-container");
+      }
     });
 
     $('#rl-btn'+(i+1)).click(function() {
