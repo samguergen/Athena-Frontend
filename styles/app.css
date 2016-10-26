@@ -446,7 +446,12 @@ hr.purple {
   width: 100px;
 }
 
-.white-jumbo .btn-area { margin-top: 0px; }
+.white-jumbo .btn-area {
+  margin-top: 0px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin-left: 45%;
+}
 
 
 footer {
@@ -739,7 +744,23 @@ a:link {
   .white-jumbo .btn-area {
     margin-left: 35%;
   }
-
+  footer {
+    height: 150px;
+    padding: 5%;
+  }
+  footer .footer-predict {
+    margin-top: 3%;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  footer .footer-links {
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  footer .footer-note {
+    width: 80%;
+    line-height: 1.4;
+  }
 
 }
 
