@@ -9,10 +9,22 @@
   }
 }
 
-@media screen and (max-width: 910px){
-.white-jumbo .more-athena-imgs {
-  flex-wrap: wrap;
+@media screen and (max-width: 920px){
+  .white-jumbo {
+    height: 440px;
+  }
+  .white-jumbo .more-athena-imgs {
+    flex-wrap: wrap;
+  }
+  .white-jumbo .more-athena-imgs .img-section {
+    padding: 1%;
+  }
 }
+/*@media screen and (max-width: 896px){
+  .white-jumbo {
+    height: 440px;
+  }
+}*/
 
 @media screen and (max-width: 775px){
   #social-toggle {
