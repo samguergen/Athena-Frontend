@@ -378,10 +378,13 @@ hr.purple {
   margin: 2% auto 2% auto;
 }
 
-.white-jumbo .more-athena p h1{
+.white-jumbo .more-athena h1{
+  color: black;
   font-size: 30px;
   font-family: "ambroise-francois-std",sans-serif;
-  font-family: "ambroise";
+  text-transform: uppercase;
+  transform: scale(1,3);
+  -webkit-transform: scale(1,2);
 }
 
 .white-jumbo .more-athena-imgs {
@@ -586,11 +589,11 @@ a:link {
     text-transform: uppercase;
     line-height: 1.3;
     font-weight: bold;
-    margin-top: 580px;
+    margin-top: 480px;
   }
 
   .predict-jumbo .contact-photos {
-    margin-top: -200px;
+    margin-top: -300px;
     flex-flow: row wrap;
   }
   .predict-jumbo .contact-photos .img-area {
@@ -663,13 +666,18 @@ a:link {
     display: none;
     opacity: 1;
   }
+  .more-athena h1 {
+    font-size: 14px;
+  }
+  .white-jumbo .more-athena-imgs {
+    flex-direction: column;
+  }
+  .white-jumbo .more-athena-imgs .img-section img {
+    height: 200px;
+    width: 200px;
+  }
 
 }
-
-/*@media screen and (max-width: 375px){
-  .predict-jumbo .contact-photos .first-row {
-    margin-left: 8%;
-  }*/
 
 
 /* very small mobile (except iphone5) */
@@ -679,7 +687,7 @@ a:link {
     margin-left: 4%;
   }
   .predict-jumbo .contact-photos {
-    margin-top: -300px;
+    /*margin-top: -300px;*/
   }
   .img-descr .descr-top {
     line-height: 1;
