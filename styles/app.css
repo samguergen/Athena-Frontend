@@ -570,9 +570,6 @@ a:link {
   #top-hat h2 {
   font-size: 50%;
 }
-  #hat-right #social-toggle img {
-    /*margin-top: -70px;*/
-  }
   .mainbod img {
     height: 300px;
   }
@@ -643,11 +640,14 @@ a:link {
   .quote-wrapper {
     margin-top: 80px;
   }
+  .quote {
+    font-size: 15px;
+  }
   .quote-ref {
     margin-top: -260px !important;
   }
   .jumbo-descr {
-    padding-top: 230px;
+    padding-top: 190px;
     position: relative;
   }
   .quote-ref .hidden-quote-ref {
