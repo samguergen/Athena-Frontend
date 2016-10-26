@@ -52,7 +52,6 @@ $(document).ready(function() {
       $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
       if ($(window).width() < 426) {
         $(this).closest('.container').addClass("bigger-container");
-
       }
     });
 
@@ -62,67 +61,10 @@ $(document).ready(function() {
       $('#rm-btn'+(i+1)).css({'opacity': '1'});
       if ($(window).width() < 426) {
         $(this).closest('.container').removeClass("bigger-container");
-        // $('.grey-set').removeClass("bigger-container");
-        // $('.white-set').removeClass("bigger-container");
       }
     });
   })
 }
-
-
-// function initToggle(){
-//   $.each(new Array(5), function(i){
-
-//     $('#rm-btn'+(i+1)).click(function() {
-//       $('#rm-content'+(i+1)).css({'display': 'block'});
-//       $('#rl-btn'+(i+1)).css({'display': 'block', 'margin-top': '-5%', 'height': '5%'});
-//       $('#rm-btn'+(i+1)).css({'display': 'none'});
-//       $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
-//     });
-
-//     $('#rl-btn'+(i+1)).click(function() {
-//       $('#rm-content'+(i+1)).css({'display': 'none'});
-//       $('#rl-btn'+(i+1)).css({'display': 'none'});
-//       $('#rm-btn'+(i+1)).css({'display': 'block'});
-//     });
-//   })
-// }
-
-// //toggle read more/read less content
-// function initToggle(){
-//   $.each(new Array(5), function(i){
-//   //read more btn expands text
-//     $('#rm-btn'+(i+1)).click(function() {
-//       if ($(window).width() > 425) {
-//         $('#rm-content'+(i+1)).css({'opacity': '1', 'transition': '0.4s'});
-//         $('#rl-btn'+(i+1)).css({'opacity': '1', 'margin-top': '-5%', 'height': '5%'});
-//         $('#rm-btn'+(i+1)).css({'opacity': '0'});
-//         $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
-//       }
-//       else {
-//         console.log("smaller windw rm");
-//         $('#rm-content'+(i+1)).css({'display': 'block'});
-//         $('#rl-btn'+(i+1)).css({'display': 'block', 'margin-top': '-5%', 'height': '5%'});
-//         $('#rm-btn'+(i+1)).css({'display': 'none'});
-//         $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
-//       }
-//     });
-//     //read less btn crops text
-//     $('#rl-btn'+(i+1)).click(function() {
-//       if ($(window).width() > 425) {
-//         $('#rm-content'+(i+1)).css({'opacity': '0', 'transition': '0.4s'});
-//         $('#rl-btn'+(i+1)).css({'opacity': '0'});
-//         $('#rm-btn'+(i+1)).css({'opacity': '1'});
-//       }
-//       else {
-//         console.log("smaller windw rl");
-//         $('#rm-content'+(i+1)).css({'display': 'none'});
-//         $('#rl-btn'+(i+1)).css({'display': 'none'});
-//         $('#rm-btn'+(i+1)).css({'display': 'block'});
-//       }
-//     });
-//   })
-// }
 
 initToggle();
 
