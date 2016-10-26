@@ -328,6 +328,7 @@ hr.purple {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 
 .btn-area button {
@@ -641,7 +642,7 @@ a:link {
     margin-top: 0;
   }
   .bigger-container {
-    height: 770px !important;
+    height: 790px !important;
   }
   .quote-wrapper {
     margin-top: 80px;
@@ -653,7 +654,7 @@ a:link {
     margin-top: -260px !important;
   }
   .jumbo-descr {
-    padding-top: 190px;
+    padding-top: 230px;
     position: relative;
   }
   .quote-ref .hidden-quote-ref {
@@ -672,7 +673,6 @@ a:link {
   }
   .readmore-content, .btn-area .read-less {
     opacity: 0;
-    /*position: absolute;*/
   }
   .more-athena h1 {
     font-size: 14px;
