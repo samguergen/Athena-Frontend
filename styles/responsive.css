@@ -20,11 +20,6 @@
     padding: 1%;
   }
 }
-/*@media screen and (max-width: 896px){
-  .white-jumbo {
-    height: 440px;
-  }
-}*/
 
 @media screen and (max-width: 775px){
   #social-toggle {
