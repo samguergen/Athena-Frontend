@@ -666,7 +666,7 @@ a:link {
   }
   .readmore-content, .btn-area .read-less {
     opacity: 0;
-    position: absolute;
+    /*position: absolute;*/
   }
   .more-athena h1 {
     font-size: 14px;
