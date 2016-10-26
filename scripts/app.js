@@ -51,7 +51,9 @@ $(document).ready(function() {
       $('#rm-btn'+(i+1)).css({'opacity': '0'});
       $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
       if ($(window).width() < 426) {
+        console.log('adding bigger container');
         $(this).closest('.container').addClass("bigger-container");
+        // $(this).closest('.container').css({'height': '850px !important'});
       }
     });
 
@@ -60,6 +62,7 @@ $(document).ready(function() {
       $('#rl-btn'+(i+1)).css({'opacity': '0'});
       $('#rm-btn'+(i+1)).css({'opacity': '1'});
       if ($(window).width() < 426) {
+        console.log('rm bigger container');
         $(this).closest('.container').removeClass("bigger-container");
       }
     });

@@ -24,6 +24,7 @@ html, body, #pinned-head {
 
 a:link, a:visited {
   text-decoration: none !important;
+  color:black;
 }
 
 #top-hat { width: 95%;}
@@ -102,6 +103,12 @@ a:link, a:visited {
 @media screen and (max-width: 980px){
   #sgc {
     display: none;
+  }
+}
+
+@media screen (min-width: 700px) and (max-width: 970px){
+  .name-quote-ref {
+    margin-top: 20px;
   }
 }
 
@@ -344,7 +351,7 @@ hr.purple {
 
 .btn-area .read-more {
     margin-top: -50px;
-  }
+}
 
 .btn-area .read-more, .btn-area .read-less {
   margin-left: auto;
@@ -353,7 +360,6 @@ hr.purple {
 }
 
 .readmore-content, .btn-area .read-less {
-  /*position: absolute;*/
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -509,6 +515,7 @@ a.back-to-top {
 
 a:link {
   cursor: pointer;
+  color: black;
 }
 
 .hidden-quote-ref {
@@ -685,14 +692,20 @@ a:link {
     opacity: 0;
   }
   .more-athena h1 {
-    font-size: 14px;
+    font-size: 15px !important;
   }
   .white-jumbo .more-athena-imgs {
+    flex-direction: column;
+  }
+  .white-jumbo .more-athena-imgs .img-section{
     flex-direction: column;
   }
   .white-jumbo .more-athena-imgs .img-section img {
     height: 200px;
     width: 200px;
+  }
+  .white-jumbo {
+    height: 900px;
   }
 
 }
@@ -703,9 +716,6 @@ a:link {
 @media screen and (max-width: 375px){
   .predict-jumbo .contact-photos .first-row {
     margin-left: 4%;
-  }
-  .predict-jumbo .contact-photos {
-    /*margin-top: -300px;*/
   }
   .img-descr .descr-top {
     line-height: 1;
@@ -718,13 +728,4 @@ a:link {
   .quote-wrapper {
     margin-top: 87px;
   }
-
-
 }
-/*#top-hat h2 {
-  font-size: 50%;
-}
-#social-toggle img {
-  margin-top: 10px;
-  height: 40%;
-}*/
