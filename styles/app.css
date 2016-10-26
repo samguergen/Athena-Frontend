@@ -352,6 +352,7 @@ hr.purple {
 }
 
 .readmore-content, .btn-area .read-less {
+  position: absolute;
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -647,6 +648,7 @@ a:link {
   }
   .jumbo-descr {
     padding-top: 230px;
+    position: relative;
   }
   .quote-ref .hidden-quote-ref {
     display: block;
@@ -663,8 +665,8 @@ a:link {
     width: 100%;
   }
   .readmore-content, .btn-area .read-less {
-    display: none;
-    opacity: 1;
+    opacity: 0;
+    position: absolute;
   }
   .more-athena h1 {
     font-size: 14px;
