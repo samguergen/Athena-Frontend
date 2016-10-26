@@ -377,7 +377,7 @@ hr.purple {
 .white-jumbo {
   display: flex;
   flex-direction: column;
-  padding: 8%;
+  padding: 5%;
   background-color: rgb(255,255,255);
   height: 250px;
 }
@@ -388,7 +388,7 @@ hr.purple {
 
 .white-jumbo .more-athena h1{
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "ambroise-francois-std",sans-serif;
   text-transform: uppercase;
   transform: scale(1,3);
@@ -463,7 +463,11 @@ footer .footer-predict, footer .footer-links, footer .footer-note {
 }
 
 footer .footer-predict {
-  font-size: 18px;
+  font-size: 14px;
+  font-family: "ambroise-francois-std";
+  text-transform: uppercase;
+  transform: scale(1,3);
+  -webkit-transform: scale(1,2);
 }
 
 footer .footer-links {
