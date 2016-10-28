@@ -34,19 +34,10 @@ $(document).ready(function() {
 
 });
 
-
-//metric to track user clicking WSJCS nav logo
+//metric to track user clicks
 function handleOutboundLinkClicks(eCat, eLabel) {
   ga('send', 'event', {
     eventCategory: eCat, //'Frame'
-    eventAction: 'Click',
-    eventLabel: eLabel,
-    transport: 'beacon'
-  });
-
-  function handleAthenaLinkClicks(eCat, eLabel) {
-  ga('send', 'event', {
-    eventCategory: 'MoreFromAthenaHealth',
     eventAction: 'Click',
     eventLabel: eLabel,
     transport: 'beacon'
