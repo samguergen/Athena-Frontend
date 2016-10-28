@@ -1,5 +1,6 @@
 $(document).ready(function() {
   console.log('jquery loading');
+  alert('width of screen is ', $(window).width());
 
   //scroll to top animation
   $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');

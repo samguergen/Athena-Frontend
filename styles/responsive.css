@@ -281,8 +281,11 @@
 
 }
 
+@media only screen and (min-device-width: 378px) and (max-device-width: 418px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
 /*  iPhone 6Plus, Android v5 - good */
-@media (min-width: 378px) and (max-width: 418px){
+/*@media (min-width: 378px) and (max-width: 418px){*/
     body {
     background: red;
   }
@@ -334,14 +337,18 @@
     margin-top: 470px !important;
   }
   .quote-wrapper img.second {
-    margin-top: 0px !important;
-    margin-left: 75% !important;
+    /*margin-top: 0px !important;
+    margin-left: 75% !important;*/
+    margin-top: 20px !important;
+    position: absolute !important;
+    margin-left: 700px !important;
   }
   .quote-ref {
     /*margin-left: 50px !important;
     margin-top: -450px !important;*/
     margin-top: -330px !important;
     margin-left: 10% !important;
+
   }
   .jumbo-descr {
     margin-top: -150px !important;

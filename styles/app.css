@@ -123,11 +123,10 @@ a:link, a:visited {
   margin: 0 auto;
   position: absolute;
   width: 60%;
-  height: 100%;
+  height: 40%;
   margin-left: 20%;
   display: flex;
   flex-direction: column;
-  z-index: -1;
 }
 
 .predict .predict-title {
@@ -280,7 +279,12 @@ hr.purple {
   margin-right: auto;
 }
 
-.grey-set .quote-wrapper img.second{  margin-top: 75px; }
+.grey-set .quote-wrapper img.second{
+  /*margin-top: 75px; */
+      margin-top: 20px !important;
+    position: absolute !important;
+    margin-left: 700px !important;
+}
 
 .grey-set .quote-ref {
   padding-bottom: 4%;
