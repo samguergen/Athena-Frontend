@@ -49,7 +49,7 @@ $(document).ready(function() {
 });
 
 
-metric to track user clicking WSJCS nav logo
+//metric to track user clicking WSJCS nav logo
 function handleOutboundLinkClicks(eCat, eLabel) {
   ga('send', 'event', {
     eventCategory: eCat, //'Frame'
