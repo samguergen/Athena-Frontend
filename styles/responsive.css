@@ -283,9 +283,9 @@
 
 /*  iPhone 6Plus, Android v5 - good */
 @media (min-width: 378px) and (max-width: 418px){
-/*    body {
+    body {
     background: red;
-  }*/
+  }
   .predict .predict-content {
     margin-top: 0;
   }
@@ -338,8 +338,10 @@
     margin-left: 75% !important;
   }
   .quote-ref {
-    margin-left: 50px !important;
-    margin-top: -450px !important;
+    /*margin-left: 50px !important;
+    margin-top: -450px !important;*/
+    margin-top: -330px !important;
+    margin-left: 10% !important;
   }
   .jumbo-descr {
     margin-top: -150px !important;
