@@ -429,10 +429,9 @@ hr.purple {
 }
 
 .white-jumbo .btn-area {
-  margin-top: 0px;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  margin-left: 45%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

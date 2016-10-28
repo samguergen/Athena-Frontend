@@ -281,13 +281,18 @@
 
 }
 
-/*  iPhone 6Plus */
+/*  iPhone 6Plus, Android v5 */
 @media (min-width: 378px) and (max-width: 418px){
   .predict .predict-content {
     margin-top: 0;
   }
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
     width: 45%;
+    margin-left: -5px;
+  }
+  .first-row {
+    margin-top: 0px;
+    margin-left: 5%;
   }
   .img-area-person1 {
     margin-left: -14px;
@@ -389,16 +394,24 @@
   }
 }
 
+/* Android v4 */
 @media screen and (max-width: 361px){
-.quote-wrapper img.second {
+/*.quote-wrapper img.second {
     margin-top: 55px !important;
-  }
+  }*/
 .img-area-person2 {
-  margin-top: -250px !important;
+  /*top: 250px !important;*/
+  margin-top: 0 !important;
 }
-.img-area-person4 {
+.jumbo-descr {
+  margin-left: 5%;
+}
+/*.img-area-person4 {
   margin-left: 5px;
   }
+.img-area-person5 {
+  top: 270px;
+}*/
 }
 
 /* iphone SE */

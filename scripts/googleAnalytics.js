@@ -1,4 +1,4 @@
-GOOGLE ANALYTICS
+
 $(document).ready(function() {
 
   $('#top-hat').on('click', '#wsjcs-link', function(e){
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
 
-    Social Share For Header
+    //Social Share For Header
   $('#main-share').on('click', '.at-icon.at-icon-linkedin', function(e){
     ga('send', 'event', 'Section: Menu', 'Share', 'LinkedIn');
   });
