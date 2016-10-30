@@ -280,10 +280,9 @@ hr.purple {
 }
 
 .grey-set .quote-wrapper img.second{
-  /*margin-top: 75px; */
-      margin-top: 20px !important;
-    position: absolute !important;
-    margin-left: 700px !important;
+  margin-top: 20px !important;
+  position: absolute !important;
+  /*margin-left: 700px !important;*/
 }
 
 .grey-set .quote-ref {
@@ -521,3 +520,97 @@ a:link {
   display: none;
 }
 
+
+/* smaller screen, tablet  */
+
+@media screen and (max-width: 980px){
+  #sgc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 920px){
+  .white-jumbo {
+    height: 440px;
+  }
+  .white-jumbo .more-athena-imgs .img-section {
+    padding: 1%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 920px){
+  .white-jumbo .more-athena-imgs {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 775px){
+  #social-toggle {
+    display: none;
+  }
+  #hat-right #lockup img {
+    height: 15px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px){
+ .quote-wrapper .quote {
+    font-size: 25px !important;
+  }
+  .predict .predict-title h2 {
+    font-size: 4rem;
+  }
+}
+
+
+@media screen (min-width: 700px) and (max-width: 970px){
+  .name-quote-ref {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .grey-set, .white-set {
+    height: 550px !important;
+  }
+}
+
+@media screen and (max-width: 665px){
+  .grey-set, .white-set {
+    height: 600px !important;
+  }
+  .predict .predict-title h2 {
+    font-size: 3rem;
+  }
+  .predict .predict-content {
+    margin-top: -60px;
+  }
+ .quote-wrapper {
+    margin-bottom: 50px;
+  }
+  .quote-ref {
+    margin-top: 100px !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .white-jumbo {
+      height: 600px;
+    }
+  footer .footer-note {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .quote-wrapper .quote {
+      font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 518px){
+   .quote-wrapper {
+    padding-bottom: 120px;
+  }
+}

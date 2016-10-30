@@ -1,0 +1,40 @@
+@media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background: red !important;
+  }
+  .contact-photos img{
+     width: 300px !important;
+    height: 300px !important;
+  }
+  .more-athena {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .more-athena h1 {
+    font-size: 30px !important
+  }
+  .img-area {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px !important;
+  }
+  .img-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px !important;
+  }
+  .img-section img{
+    height: 300px !important;
+    width: 300px !important;
+  }
+  .img-legend {
+    width: 300px !important;
+  }
+  footer {
+    clear:both ;
+  }
+  .white-jumbo {
+    height: 1500px !important;
+  }
+}
