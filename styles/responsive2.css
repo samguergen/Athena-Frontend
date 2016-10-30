@@ -1,15 +1,64 @@
+@media only screen and (min-device-width: 750px) and (max-device-width: 770px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background: orange !important;
+  }
+}
+
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    background: red !important;
+   /* background: blue !important;*/
+    min-width: 100% !important;
+  }
+  /*.mainbod img {
+    height: 20% !important;
+  }*/
+  .predict {
+    z-index: 45 !important;
+    top: 270px !important;
+    position: absolute;
+    height: 20% !important;
+  }
+
+  .predict-jumbo .contact-photos .img-area .smaller-fpo {
+  /*top: 30%;*/
+  /*width: 100%;*/
+  position: absolute;
+  margin-left: 16%;
+  margin-top: -200px;
+  left: 0;
+  text-align: center;
+  font-size: 50px;
+
+  visibility: hidden;
+}
+  .contact-photos {
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    margin-top: 400px !important;
+    z-index: 99 !important;
   }
   .contact-photos img{
-     width: 300px !important;
+    width: 300px !important;
     height: 300px !important;
+  }
+  .img-area-person2, .img-area-person4 {
+    margin-left: 50% !important;
+    margin-top: -390px !important;
+  }
+  .img-area-person5 {
+    width: 300px !important;
+    margin-right: auto !important;
+    margin-left: 200px !important;
+    margin-top: 10px !important;
+  }
+  .quote-wrapper img.second{
+    display: none;
   }
   .more-athena {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 500px;
   }
   .more-athena h1 {
     font-size: 30px !important
@@ -17,19 +66,20 @@
   .img-area {
     margin-left: auto;
     margin-right: auto;
-    width: 300px !important;
   }
   .img-section {
     margin-left: auto;
     margin-right: auto;
-    width: 300px !important;
+    width: 80% !important;
   }
   .img-section img{
-    height: 300px !important;
-    width: 300px !important;
+    height: 200px !important;
+    width: 200px !important;
   }
   .img-legend {
-    width: 300px !important;
+    width: 200px !important;
+    margin-left: -210px;
+    margin-top: 250px;
   }
   footer {
     clear:both ;
