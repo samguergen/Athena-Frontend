@@ -9,33 +9,25 @@
    /* background: blue !important;*/
     min-width: 100% !important;
   }
-  /*.mainbod img {
-    height: 20% !important;
-  }*/
   .predict {
     z-index: 45 !important;
     top: 270px !important;
     position: absolute;
     height: 20% !important;
   }
-
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
-  /*top: 30%;*/
-  /*width: 100%;*/
-  position: absolute;
-  margin-left: 16%;
-  margin-top: -200px;
-  left: 0;
-  text-align: center;
-  font-size: 50px;
+    position: absolute;
+    margin-left: 16%;
+    margin-top: -200px;
+    left: 0;
+    text-align: center;
+    font-size: 50px;
 
-  visibility: hidden;
-}
+    visibility: hidden;
+  }
   .contact-photos {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 400px auto 5px auto !important;
     width:80%;
-    margin-top: 400px !important;
     z-index: 99 !important;
   }
   .contact-photos img{
@@ -44,7 +36,7 @@
   }
   .img-area-person2, .img-area-person4 {
     margin-left: 50% !important;
-    margin-top: -390px !important;
+    margin-top: -385px !important;
   }
   .img-area-person5 {
     width: 300px !important;
@@ -52,8 +44,13 @@
     margin-left: 200px !important;
     margin-top: 10px !important;
   }
+  .img-descr {
+    padding-left: 5%;
+  }
   .quote-wrapper img.second{
-    display: none;
+    margin-left: 66%;
+    margin-top: -70px;
+    /*display: none;*/
   }
   .more-athena {
     margin-left: auto;
@@ -72,19 +69,53 @@
     margin-right: auto;
     width: 80% !important;
   }
-  .img-section img{
-    height: 200px !important;
-    width: 200px !important;
+    .img-section img{
+    height: 300px !important;
+    width: 300px !important;
+    margin-right: auto;
+    margin-left: 30%;
+  }
+  .more-athena-imgs {
+    padding-top: 10px;
   }
   .img-legend {
-    width: 200px !important;
-    margin-left: -210px;
-    margin-top: 250px;
+    width: 300px !important;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .img-legend .first {
+    font-size: 20px !important;
+    margin-bottom:-3px;
+  }
+  .img-legend .second {
+    font-size: 18px !important;
+  }
+  .img-legend .third {
+    font-size: 15px !important;
   }
   footer {
     clear:both ;
   }
   .white-jumbo {
-    height: 1500px !important;
+    height: 1800px !important;
   }
 }
+
+/*@media only screen and (min-device-width: 212px) and (max-device-width: 322px){
+  .img-section img{
+    height: 300px !important;
+    width: 300px !important;
+    margin-right: auto;
+    margin-left: 30%;
+  }
+  .more-athena-imgs {
+    padding-top: 10px;
+  }
+  .img-legend {
+    width: 300px !important;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 0;
+  }
+}*/

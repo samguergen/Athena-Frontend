@@ -296,21 +296,21 @@ hr.purple {
   /*margin-left: 700px !important;*/
 }
 
-.grey-set .quote-ref {
+ .quote-ref {
   padding-bottom: 4%;
   margin-top: 200px;
 }
 
-.grey-set .quote-ref hr.purple{ width: 40%; }
+ .quote-ref hr.purple{ width: 40%; }
 
-.grey-set .quote, .grey-set .quote-ref, .grey-set .jumbo-descr, .grey-set .btn-area{
+ .quote,  .quote-ref,  .jumbo-descr,  .btn-area{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   text-align: center;
 }
 
-.grey-set .jumbo-descr {
+ .jumbo-descr {
   text-align: justify;
   line-height: 1.8;
   font-size: 12px;
@@ -318,7 +318,7 @@ hr.purple {
 }
 
 
-.grey-set .jumbo-descr::first-line {
+ .jumbo-descr::first-line {
   font-weight: bold;
   text-transform: uppercase;
   color: black;
