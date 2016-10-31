@@ -160,31 +160,32 @@ a:link, a:visited {
   font-size: 4rem;
 }
 
-.predict-content {
-    order: 2;
-    color: rgb(39,39,39);
-    line-height: 2;
-    position: absolute;
-    padding: 2%;
-    width: 80%;
-    text-align: center;
-    top: 280px;
-    margin-left: 10%;
-}
-
-@media screen and (max-width: 738px){
-  .predict-content {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
 .predict-jumbo{
   background: white;
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
+  margin-top: -200px;
+  height: 1200px;
 }
+
+.predict-content {
+  font-family: IndustryW00-Light;
+  font-family: Industry;
+  order: 2;
+  color: rgb(39,39,39);
+  line-height: 1.5;
+  text-transform: uppercase;
+  position: absolute;
+  padding: 2%;
+  width: 50%;
+  font-weight: normal;
+  text-align: center;
+  top: 250%;
+  margin-left: 25%;
+}
+
+
 
 
 @media only screen and (min-device-width: 800px)  {
@@ -599,6 +600,14 @@ a:link {
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 738px){
+  .predict-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 
 @media screen and (max-width: 700px){
   .grey-set, .white-set {
