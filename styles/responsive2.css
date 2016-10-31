@@ -6,14 +6,13 @@
 
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-   /* background: blue !important;*/
     min-width: 100% !important;
   }
-  .predict {
-    z-index: 45 !important;
-    top: 270px !important;
-    position: absolute;
-    height: 20% !important;
+  img#hero-bg {
+    height: 35%;
+  }
+  .predict-title {
+    top: 20%;
   }
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
     position: absolute;
