@@ -94,11 +94,23 @@
   .img-legend .third {
     font-size: 15px !important;
   }
+  .white-jumbo {
+    height: 1800px !important;
+  }
   footer {
     clear:both ;
   }
-  .white-jumbo {
-    height: 1800px !important;
+  footer .footer-predict {
+    width: 310px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+  }
+
+  footer .footer-links {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
