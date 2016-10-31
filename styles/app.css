@@ -127,37 +127,27 @@ a:link, a:visited {
   font-size: 10rem;
 }
 
-.predict {
-  top: 470px;
-  margin-left: 10% !important;
-  background: white;
-  margin: 0 auto;
-  position: absolute;
-  width: 80%;
-  height: 25%;
-  display: flex;
-  flex-direction: column;
-}
-
-.predict .predict-title {
+.predict-title {
   line-height: 1.0;
   order: 1;
   position: absolute;
   background: white;
   margin-right: auto;
-  margin-left: auto;
-  width: 700px;
+  margin-left: 10%;
+  width: 80%;
+  height: 30%;
+  top: 80%;
   padding-top: 20px;
   text-align: center;
   color: rgb(35,35,35);
 }
 
-.predict .predict-title h2 .predict-title-line1 {
+.predict-title h2 .predict-title-line1 {
   font-family: IndustryW00-Light;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
-.predict .predict-title h2 .predict-title-line2 {
+.predict-title h2 .predict-title-line2 {
   font-family: Industry;
   font-style: normal;
   transform: scale(2,1);
@@ -167,10 +157,10 @@ a:link, a:visited {
   -o-transform:scale(2,1); /* Opera */
   font-family: Industry;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
-.predict .predict-content {
+.predict-content {
     order: 2;
     color: rgb(39,39,39);
     line-height: 2;
@@ -183,7 +173,7 @@ a:link, a:visited {
 }
 
 @media screen and (max-width: 738px){
-  .predict .predict-content {
+  .predict-content {
     width: 100%;
     margin-left: 0;
   }
