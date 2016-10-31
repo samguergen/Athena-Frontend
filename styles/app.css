@@ -2,6 +2,8 @@
 
 @import url(//db.onlinewebfonts.com/c/7f3b7d43b0a45c1ea35b6970a0592e2d?family=Ambroise+Francois);
 
+@import url(//db.onlinewebfonts.com/c/290628920f5090a9be171898b1d4d63a?family=IndustryW00-Light);
+
 @font-face {
   font-family: "Industry";
     src: local("Industry"),
@@ -15,6 +17,15 @@
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/7f3b7d43b0a45c1ea35b6970a0592e2d.svg#Ambroise Francois") format("svg");
+}
+
+@font-face {font-family: "IndustryW00-Light";
+    src: url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.eot");
+    src: url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/290628920f5090a9be171898b1d4d63a.svg#IndustryW00-Light") format("svg");
 }
 
 
@@ -118,13 +129,12 @@ a:link, a:visited {
 
 .predict {
   top: 470px;
-  margin-left: 20% !important;
+  margin-left: 10% !important;
   background: white;
   margin: 0 auto;
   position: absolute;
-  width: 60%;
+  width: 80%;
   height: 40%;
-  margin-left: 20%;
   display: flex;
   flex-direction: column;
 }
@@ -135,14 +145,20 @@ a:link, a:visited {
   background: white;
   margin-right: auto;
   margin-left: auto;
+  width: 700px;
 }
 
 .predict .predict-title h2 {
-    line-height: 1.1;
-    padding: 15px;
-    text-align: center;
-    font-size: 5rem;
-    color: rgb(35,35,35);
+  line-height: 1.1;
+  padding: 10px;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(35,35,35);
+}
+
+.predict .predict-title h2 .predict-title-line2 {
+   font-size: 2.5rem;
+   font-weight: bold;
 }
 
 .predict .predict-content {
