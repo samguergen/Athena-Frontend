@@ -174,7 +174,7 @@ a:link, a:visited {
 
 @media only screen and (min-device-width: 800px)  {
   body {
-    background: green;
+    /*background: green;*/
   }
 
 
@@ -216,6 +216,10 @@ a:link, a:visited {
 
 .predict-jumbo .contact-photos .second-row { margin-top: 30px; }
 
+ .quote-wrapper img.second{
+  margin-top: 30px !important;
+  margin-left: 700px !important;
+  }
 
 }
 
