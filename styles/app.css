@@ -115,11 +115,19 @@ a:link, a:visited {
   height: 100%;
   position: relative;
   width: 100%; /* for IE 6 */
+  background: #aeb3b6; /* just got sample bg */
 }
 
 img#hero-bg {
   width: 100%;
-  height: 500px;
+  /*width: 800px;*/
+  height: 650px;
+}
+
+.username {
+  margin-left: 83%;
+  margin-top: -550px;
+  position: absolute;
 }
 
 .fpo h2 {
@@ -133,15 +141,15 @@ img#hero-bg {
 }
 
 .predict-title {
-  line-height: 1.0;
+  line-height: 0.9;
   order: 1;
   position: absolute;
   background: white;
   margin-right: auto;
   margin-left: 15%;
   width: 70%;
-  height: 30%;
-  top: 80%;
+  height: 50%;
+  top: 70%;
   padding-top: 20px;
   text-align: center;
   color: rgb(35,35,35);
@@ -156,8 +164,8 @@ img#hero-bg {
   font-family: Industry;
   font-style: normal;
   font-size: 5rem;
-  margin-left: 30%;
-  width: 40%;
+  /*margin-left: 30%;
+  width: 40%;*/
 /*  transform: scale(2,1);
   -webkit-transform: scale(2,1);*/
 }
@@ -167,7 +175,7 @@ img#hero-bg {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
-  margin-top: -150px;
+  margin-top: -400px;
   height: 1200px;
 }
 
@@ -176,19 +184,17 @@ img#hero-bg {
   font-family: Industry;
   order: 2;
   color: rgb(39,39,39);
-  line-height: 1.5;
+  line-height: 1.3;
   text-transform: uppercase;
   position: absolute;
   padding: 2%;
   width: 50%;
   font-weight: normal;
   text-align: center;
-  top: 250%;
+  top: 1350px;
   margin-left: 25%;
+  font-size: 1.5rem;
 }
-
-
-
 
 @media only screen and (min-device-width: 800px)  {
   body {
@@ -202,7 +208,7 @@ img#hero-bg {
   .predict-jumbo .contact-photos img {
     width: 200px;
     height: 200px;
-    padding: 5px;
+    padding: 15px;
   }
   .predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
     display: flex;
