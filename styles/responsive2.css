@@ -15,8 +15,11 @@
     top: 20%;
     height: 10%;
   }
+  .predict-content {
+    margin-top: 30px;
+  }
   .predict-jumbo {
-    height: 1200px;
+    height: 1500px;
   }
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
     position: absolute;
