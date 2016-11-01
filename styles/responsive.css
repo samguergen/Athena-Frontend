@@ -1,12 +1,22 @@
+
 /* smaller screen, tablet  */
 
-@media screen and (max-width: 980px){
+/*@media screen and (max-width: 980px){
+ .quote-wrapper .quote {
+    font-size: 23px !important;
+  }
   #sgc {
     display: none;
+  }
+  .username {
+    margin-left: 80%;
   }
 }
 
 @media screen and (max-width: 920px){
+  .quote-wrapper .quote {
+    font-size: 20px !important;
+  }
   .white-jumbo {
     height: 440px;
   }
@@ -21,6 +31,15 @@
   }
 }
 
+@media screen and (max-width: 850px){
+  .predict-title h2 .predict-title-line1, .predict-title h2 .predict-title-line2 {
+    font-size: 4rem;
+  }
+  .username {
+    margin-left: 78%;
+  }
+}
+
 @media screen and (max-width: 775px){
   #social-toggle {
     display: none;
@@ -29,13 +48,24 @@
     height: 15px;
     display: none;
   }
+  .username {
+    margin-left: 75%;
+  }
+  .predict-content {
+    width: 70%;
+    margin-left: 15%;
+  }
+
 }
 
 @media screen and (max-width: 750px){
- .quote-wrapper .quote {
-    font-size: 25px !important;
+  .grey-set, .white-set {
+    height: 700px;
   }
-  .predict .predict-title h2 {
+ .quote-wrapper .quote {
+    font-size: 15px !important;
+  }
+   .predict-title h2 {
     font-size: 4rem;
   }
 }
@@ -54,13 +84,16 @@
 }
 
 @media screen and (max-width: 665px){
+  .username {
+    margin-left: 72%;
+  }
+  .predict-title h2 .predict-title-line1, .predict-title h2 .predict-title-line2, .predict-title h2 {
+    font-size: 3rem;
+  }
   .grey-set, .white-set {
     height: 600px !important;
   }
-  .predict .predict-title h2 {
-    font-size: 3rem;
-  }
-  .predict .predict-content {
+  .predict-content {
     margin-top: -60px;
   }
  .quote-wrapper {
@@ -72,6 +105,9 @@
 }
 
 @media screen and (max-width: 600px){
+  .username {
+    margin-left: 69%;
+  }
   .white-jumbo {
       height: 600px;
     }
@@ -87,347 +123,10 @@
 }
 
 @media screen and (max-width: 518px){
+  .username {
+    margin-left: 65%;
+  }
    .quote-wrapper {
     padding-bottom: 120px;
   }
-}
-
-
-
-/* mobile */
-
-@media screen and (max-width: 425px){
-  .hamburger-menu {
-    width: 100%;
-    height: 240px;
-  }
-  .hamburger-menu ol li {
-    padding-bottom: 1%;
-    font-size: 13px;
-    font-weight: normal;
-    padding-top: 0;
-  }
-  #top-hat h2 {
-  font-size: 50%;
-}
-  .mainbod img {
-    height: 300px;
-  }
-  .fpo h2 {
-    font-size: 8rem;
-  }
-  .predict .predict-title {
-    margin-top: -200px;
-    margin-left: -10%;
-    }
-  .predict .predict-title h2 {
-    font-size: 2rem;
-  }
-  .predict .predict-content {
-    text-transform: uppercase;
-    line-height: 1.3;
-    font-weight: bold;
-    margin-top: 480px;
-  }
-
-  .predict-jumbo {
-    padding-top: 400px;
-  }
-
-  .predict-jumbo .contact-photos {
-    margin-top: -300px;
-    flex-flow: row wrap;
-  }
-  .predict-jumbo .contact-photos .img-area {
-    padding: 5px;
-  }
-  .predict-jumbo .contact-photos img {
-    margin-top: 10px;
-    height: 150px;
-    width: 150px;
-  }
-  .predict-jumbo .contact-photos .first-row {
-    margin-top: 0px;
-    margin-left: 8%;
-    order: 2;
-  }
-  .predict-jumbo .contact-photos .second-row {
-    order: 1;
-    margin-top: 400px;
-  }
-  .predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
-    flex-flow: row wrap;
-  }
-  .contact-photos #person3 {
-    margin-left: 50%;
-  }
-  #person3 .smaller-fpo {
-    left: 50%;
-  }
-  .img-descr {
-    line-height: 0.7;
-    width: 150px;
-  }
-  .img-descr .descr-top {
-    margin-bottom: 15px;
-    margin-top: 5px;
-    line-height: 1;
-    font-size: 12px;
-  }
-  .second-set {
-    margin-top: 200px;
-    height: 200px;
-  }
-  .second-set .fpo-header {
-    visibility: hidden;
-  }
-  .third-set {
-    margin-top: 0;
-  }
-  .bigger-container {
-    height: 850px !important;
-  }
-  .quote-wrapper {
-    margin-top: 80px;
-  }
-  .quote {
-    font-size: 15px;
-  }
-  .quote-ref {
-    margin-top: 50px;
-  }
-  .jumbo-descr {
-    padding-top: 230px;
-    position: relative;
-  }
-  .quote-ref .hidden-quote-ref {
-    display: block;
-    font-size: 12px;
-  }
-  .quote-ref .name-quote-ref {
-    padding-bottom: 10px;
-    font-family: "ambroise-francois-std";
-    text-transform: uppercase;
-    transform: scale(1,3);
-    -webkit-transform: scale(1,2);
-  }
-  .quote-ref hr.purple {
-    width: 100%;
-  }
-  .readmore-content, .btn-area .read-less {
-    opacity: 0;
-  }
-  .white-jumbo {
-    /*height: 950px;*/
-    height: 1300px;
-  }
-  .more-athena h1 {
-    font-size: 15px !important;
-  }
-  .white-jumbo .more-athena-imgs {
-    display: flex;
-    flex-direction: column !important;
-  }
-  .white-jumbo .more-athena-imgs .img-section{
-    display: flex;
-    flex-direction: column;
-  }
-  .white-jumbo .more-athena-imgs .img-section img {
-    height: 200px;
-    width: 200px;
-  }
-  .white-jumbo .more-athena-imgs .img-section .img-legend {
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 0;
-    font-family: "ambroise-francois-std";
-    text-transform: uppercase;
-  }
-  .white-jumbo .more-athena-imgs .img-section .img-legend .first{
-    width: 200px;
-    line-height: 1.1;
-    font-size: 12px;
-    transform: scale(1,3);
-    -webkit-transform: scale(1,2);
-  }
-  .white-jumbo .more-athena-imgs .img-section .img-legend .second{
-    font-size: 12px;
-    width: 200px;
-    text-align: justify;
-  }
-  .white-jumbo .more-athena-imgs .img-section .img-legend .third{
-    font-size: 12px;
-  }
-  .white-jumbo .btn-area {
-    margin-left: 35%;
-  }
-  footer {
-    height: 150px;
-    padding: 5%;
-  }
-  footer .footer-predict {
-    margin-top: 3%;
-    font-size: 12px;
-    font-weight: normal;
-  }
-  footer .footer-links {
-    margin-top: 5%;
-    margin-bottom: 0;
-  }
-  footer .footer-note {
-    width: 80%;
-    line-height: 1.4;
-  }
-
-}
-
-@media only screen and (min-device-width: 378px) and (max-device-width: 418px) and (-webkit-min-device-pixel-ratio: 2) {
-
-
-/*  iPhone 6Plus, Android v5 - good */
-/*@media (min-width: 378px) and (max-width: 418px){*/
-    body {
-    background: red;
-  }
-  .predict .predict-content {
-    margin-top: 0;
-  }
-  .predict-jumbo .contact-photos .img-area .smaller-fpo {
-    width: 45%;
-    margin-left: -5px;
-  }
-/*  .first-row {
-    margin-top: 100px;
-    margin-left: 5%;
-  }*/
-  .first-row {
-    margin-top: 0px;
-    margin-left: 5%;
-  }
-  .img-area-person1 {
-    margin-left: -14px;
-    margin-top: 15px;
-  }
-  .img-area-person2 {
-    margin-top: -250px;
-    margin-left: 50%;
-  }
-  .img-area-person2 .smaller-fpo {
-    margin-left: 20%;
-  }
-  .img-area-person3 {
-    margin-left: 0;
-  }
-  .img-area-person3 .smaller-fpo {
-    margin-left: -60px;
-  }
-  .img-area-person4 {
-    margin-left: 5%;
-  }
-  .img-area-person5 {
-    margin-left: 30%;
-  }
-  .img-area-person5 .smaller-fpo {
-    margin-left: 5%;
-  }
-  .second-row {
-    margin-top: -255px !important;
-  }
-  .predict .predict-content {
-    margin-top: 470px !important;
-  }
-  .quote-wrapper img.second {
-    /*margin-top: 0px !important;
-    margin-left: 75% !important;*/
-    margin-top: 20px !important;
-    position: absolute !important;
-    margin-left: 700px !important;
-  }
-  .quote-ref {
-    /*margin-left: 50px !important;
-    margin-top: -450px !important;*/
-    margin-top: -330px !important;
-    margin-left: 10% !important;
-
-  }
-  .jumbo-descr {
-    margin-top: -150px !important;
-    top: -150px;
-  }
-  .firstcharacter {
-    margin-top: -150px;
-    font-size: inherit;
-    float: none;
-    line-height: inherit;
-    padding: 0;
-  }
-
-}
-
-
-
-/* iPhone 6S - good, iphone 6 - not  */
-@media screen and (max-width: 376px){
-  .grey-set, white-set {
-    height: 700px !important;
-  }
-  .bigger-container {
-    height: 900px !important;
-  }
-  .predict-jumbo {
-    margin-top: -360px !important;
-  }
-  .predict-jumbo .contact-photos .first-row {
-    margin-left: 4%;
-  }
-  .img-descr .descr-top {
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 20px;
-  }
-  .predict .predict-content {
-    top: 350px !important;
-  }
-  .quote-wrapper {
-    margin-top: 160px !important;
-    margin-left: -30px !important;
-    position: absolute;
-  }
-  .quote-wrapper img {
-    margin-top: -70px;
-  }
-  .quote-wrapper img.second {
-    margin-top: 40px;
-    margin-left: -20px;
-  }
-  .quote-ref {
-    margin-top: 20px !important;
-  }
-  .jumbo-descr {
-    position: absolute;
-    margin-top: 10px;
-  }
-}
-
-/* Android v4 - good */
-@media screen and (max-width: 361px){
-  .img-area-person2 {
-    margin-top: 0px !important;
-  }
-  .jumbo-descr {
-    margin-left: 5% !important;
-  }
-}
-
-/* iPhone SE, iPhone 5S */
-@media screen and (max-width: 321px){
-  .predict-jumbo .contact-photos img {
-    height: 110px;
-    width: 110px;
-  }
-  .img-area-person2 {
-    margin-top: -806px;
-    margin-left: 79% !important;
-  }
-
-}
+}*/

@@ -44,6 +44,10 @@ a:link, a:visited {
   color:black;
 }
 
+#pinned-header {
+  max-width: 100% !important;
+}
+
 #top-hat { width: 95%;}
 
 #top-hat h2{
@@ -115,12 +119,10 @@ a:link, a:visited {
   height: 100%;
   position: relative;
   width: 100%; /* for IE 6 */
-  /*background: #aeb3b6;*/ /* just got sample bg */
 }
 
 img#hero-bg {
   width: 100%;
-  /*height: 650px;*/
 }
 
 .username {
@@ -178,6 +180,42 @@ img#hero-bg {
   height: 1400px;
 }
 
+.predict-jumbo .contact-photos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.predict-jumbo .contact-photos img {
+  width: 200px;
+  height: 300px;
+  padding: 15px;
+}
+.predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.predict-jumbo .contact-photos .first-row a, .predict-jumbo .contact-photos .second-row a {
+  text-decoration: none;
+  color: black
+}
+.predict-jumbo .contact-photos .img-area { position: relative; }
+.predict-jumbo .contact-photos .img-area .smaller-fpo {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 50px;
+}
+.predict-jumbo .contact-photos .first-row { margin-top: 400px; }
+.predict-jumbo .contact-photos .second-row { margin-top: 30px; }
+ .quote-wrapper img.second{
+  margin-top: 80px;
+  margin-left: 700px !important;
+  }
+
 .predict-content {
   font-family: IndustryW00-Light;
   font-family: Industry;
@@ -193,49 +231,6 @@ img#hero-bg {
   margin-left: 25%;
   font-size: 1.5rem;
 }
-
-@media only screen and (min-device-width: 800px)  {
-  body {
-    /*background: green;*/
-  }
-
-  .predict-jumbo .contact-photos {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-  .predict-jumbo .contact-photos img {
-    width: 200px;
-    height: 300px;
-    padding: 15px;
-  }
-  .predict-jumbo .contact-photos .first-row, .predict-jumbo .contact-photos .second-row {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .predict-jumbo .contact-photos .first-row a, .predict-jumbo .contact-photos .second-row a {
-    text-decoration: none;
-    color: black
-  }
-  .predict-jumbo .contact-photos .img-area { position: relative; }
-  .predict-jumbo .contact-photos .img-area .smaller-fpo {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    font-size: 50px;
-  }
-  .predict-jumbo .contact-photos .first-row { margin-top: 400px; }
-  .predict-jumbo .contact-photos .second-row { margin-top: 30px; }
-   .quote-wrapper img.second{
-    margin-top: 80px;
-    margin-left: 700px !important;
-    }
-}
-
 
 .img-descr {
   display: flex;
@@ -317,7 +312,6 @@ hr.purple {
  .quote-wrapper img.second{
   margin-top: 20px !important;
   position: absolute !important;
-  /*margin-left: 700px !important;*/
 }
 
  .quote-ref {
@@ -569,152 +563,10 @@ a:link {
   display: none;
 }
 
-
-/* smaller screen, tablet  */
-
-@media screen and (max-width: 980px){
- .quote-wrapper .quote {
-    font-size: 23px !important;
+@media only screen and (max-width: 800px) {
+   body{
+    background: green;
   }
-  #sgc {
-    display: none;
+  .predict-title {
+    top: 60%;
   }
-  .username {
-    margin-left: 80%;
-  }
-}
-
-@media screen and (max-width: 920px){
-  .quote-wrapper .quote {
-    font-size: 20px !important;
-  }
-  .white-jumbo {
-    height: 440px;
-  }
-  .white-jumbo .more-athena-imgs .img-section {
-    padding: 1%;
-  }
-}
-
-@media (min-width: 425px) and (max-width: 920px){
-  .white-jumbo .more-athena-imgs {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 850px){
-  .username {
-    margin-left: 80%;
-  }
-  .predict-title h2 .predict-title-line1 {
-    font-size: 4rem;
-  }
-  .predict-title h2 .predict-title-line2 {
-    font-size: 4rem;
-  }
-  .username {
-    margin-left: 78%;
-  }
-}
-
-@media screen and (max-width: 775px){
-
-  #social-toggle {
-    display: none;
-  }
-  #hat-right #lockup img {
-    height: 15px;
-    display: none;
-  }
-  .username {
-    margin-left: 75%;
-  }
-  .predict-content {
-    width: 70%;
-    margin-left: 15%;
-  }
-
-}
-
-@media screen and (max-width: 750px){
-  .grey-set, .white-set {
-    height: 700px;
-  }
- .quote-wrapper .quote {
-    font-size: 15px !important;
-  }
-  .predict .predict-title h2 {
-    font-size: 4rem;
-  }
-}
-
-
-@media screen (min-width: 700px) and (max-width: 970px){
-  .name-quote-ref {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 738px){
-}
-
-
-@media screen and (max-width: 700px){
-  .grey-set, .white-set {
-    height: 550px !important;
-  }
-}
-
-@media screen and (max-width: 665px){
-  .username {
-    margin-left: 72%;
-  }
-  .predict-title h2 .predict-title-line1 {
-    font-size: 3rem;
-  }
-  .predict-title h2 .predict-title-line2 {
-    font-size: 3rem;
-  }
-  .grey-set, .white-set {
-    height: 600px !important;
-  }
-  .predict .predict-title h2 {
-    font-size: 3rem;
-  }
-  .predict .predict-content {
-    margin-top: -60px;
-  }
- .quote-wrapper {
-    margin-bottom: 50px;
-  }
-  .quote-ref {
-    margin-top: 100px !important;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .username {
-    margin-left: 69%;
-  }
-  .white-jumbo {
-      height: 600px;
-    }
-  footer .footer-note {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 560px){
-  .quote-wrapper .quote {
-      font-size: 20px !important;
-    }
-}
-
-@media screen and (max-width: 518px){
-  .username {
-    margin-left: 65%;
-  }
-   .quote-wrapper {
-    padding-bottom: 120px;
-  }
-}

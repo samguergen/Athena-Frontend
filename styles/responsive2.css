@@ -1,8 +1,193 @@
-@media only screen and (min-device-width: 750px) and (max-device-width: 770px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    background: orange !important;
+/*@media screen and (max-width: 800px) {
+   body{
+    background: green !important;
+  }
+  .predict-title {
+    top: 60% !important;
+  }
+  #social-toggle {
+    display: none !important;
+  }
+  #hat-right #lockup img {
+    height: 15px;
+    display: none;
+  }
+}*/
+
+@media only screen and (max-device-width: 800px) and (max-width: 800px) {
+   body{
+    background: blue;
+  }
+  .predict-title {
+    top: 60%;
+  }
+  #social-toggle {
+    display: none;
+  }
+  #hat-right #lockup img {
+    height: 15px;
+    display: none;
   }
 }
+
+@media only screen and (max-device-width: 700px) and (max-width: 700px) {
+  .predict-title {
+    top: 50%;
+  }
+}
+
+@media only screen and (max-device-width: 570px) and (max-width: 570px) {
+  .predict-title {
+    top: 40%;
+  }
+}
+
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  body {
+    background: orange !important;
+    min-width: 100% !important;
+  }
+  img#hero-bg {
+    height: 35%;
+  }
+  .predict-title {
+    top: 30% !important;
+  }
+  .predict-content {
+    margin-top: 30px;
+  }
+  .predict-jumbo {
+    height: 2000px;
+  }
+  .contact-photos {
+    margin: 100px auto 5px 13% !important;
+    width:80%;
+    z-index: 99 !important;
+    padding-left: 10%;
+  }
+  .contact-photos .img-area {
+    padding-bottom: 10px;
+  }
+  .img-area .smaller-fpo {
+    position: absolute;
+    /*margin-top: -180px;*/
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .contact-photos img{
+    width: 200px !important;
+    height: 300px !important;
+  }
+  .img-area-person1 .smaller-fpo, .img-area-person3 .smaller-fpo{
+    margin-left:-190px;
+  }
+  .img-area-person2 .smaller-fpo, .img-area-person4 .smaller-fpo{
+    margin-left:-40px;
+  }
+  .img-area-person2, .img-area-person4 {
+    margin-left: 50% !important;
+    margin-top: -422px !important;
+  }
+  .img-area-person4 {
+    margin-top: -450px !important;
+  }
+  .img-area-person5 {
+    width: 300px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 10px !important;
+  }
+  .img-area-person5 .smaller-fpo{
+    margin-left: -50px;
+  }
+  .img-descr {
+    padding-left: 5%;
+    padding-top: 5px;
+  }
+  .btn-area {
+    margin-top: 10px !important;
+  }
+  .quote-wrapper {
+    padding-top: 40px;
+  }
+  .quote-wrapper .quote {
+    font-size: 17px;
+  }
+  .quote-wrapper img.second{
+    margin-top: -70px;
+    display: none;
+  }
+  .more-athena {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  .more-athena h1 {
+    font-size: 30px !important
+  }
+  .img-area {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+  }
+  .img-section img{
+    height: 300px !important;
+    width: 300px !important;
+    margin-right: auto;
+    margin-left: 30%;
+  }
+  .more-athena-imgs {
+    padding-top: 10px;
+  }
+  .img-legend {
+    width: 300px !important;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .img-legend .first {
+    font-size: 20px !important;
+    margin-bottom:-3px;
+  }
+  .img-legend .second {
+    font-size: 18px !important;
+  }
+  .img-legend .third {
+    font-size: 15px !important;
+  }
+  .white-jumbo {
+    height: 1800px !important;
+  }
+  footer {
+    clear:both ;
+  }
+  footer .footer-predict {
+    width: 310px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3px;
+  }
+
+  footer .footer-links {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+
+
 
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
@@ -28,8 +213,7 @@
     left: 0;
     text-align: center;
     font-size: 50px;
-
-    visibility: hidden;
+    /*visibility: hidden;*/
   }
   .contact-photos {
     margin: 400px auto 5px auto !important;
@@ -82,7 +266,7 @@
     margin-right: auto;
     width: 80% !important;
   }
-    .img-section img{
+  .img-section img{
     height: 300px !important;
     width: 300px !important;
     margin-right: auto;
