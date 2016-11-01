@@ -73,7 +73,9 @@
     <a onclick="handleOutboundLinkClicks('Button','BackToTopButton')"  href="#" class="back-to-top" data-wpel-link="internal">Back to Top</a>
 
     <div class="mainbod">
-      <img id="hero-bg" src="images/person1-copy.jpg" alt="" />
+      <div style="overflow: hidden">
+        <img id="hero-bg" src="images/person1.jpg" alt="" style="margin:-5% 0px -30% 0px;" />
+      </div>
       <div style="background: transparent" class="username">LoremFirst Lastname</div>
       <div class="fpo"><h2>FPO</h2></div>
       <div class="predict-title">
@@ -88,11 +90,11 @@
           <div class="first-row row">
             <a onclick="handleOutboundLinkClicks('Person_person1','Link_person1')" href="#person1" data-wpel-link="internal">
               <div class="img-area img-area-person1 col-xs-4">
-                <img src="images/old-man.jpg" alt="" class="img-responsive"/>
+                <img src="images/portraits/person1.jpg" alt="" class="img-responsive"/>
                 <div class="smaller-fpo">FPO</div>
                 <div class="img-descr">
                   <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
-                  <b> GASTROENTROLOGIST </b> <br>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
                  Mount. Sinai Hospital
                  <hr class="purple">
                 </div>
@@ -100,11 +102,11 @@
             </a>
             <a onclick="handleOutboundLinkClicks('Person_person2','Link_person2')" href="#person2" data-wpel-link="internal">
               <div class="img-area img-area-person2 col-xs-4">
-                <img src="images/old-man.jpg" alt="" class="img-responsive"/>
+                <img src="images/portraits/person2.jpg" alt="" class="img-responsive"/>
                 <div class="smaller-fpo">FPO</div>
                 <div class="img-descr">
                   <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
-                  <b> GASTROENTROLOGIST </b> <br>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
                  Mount. Sinai Hospital
                  <hr class="purple">
                 </div>
@@ -112,11 +114,11 @@
             </a>
             <a onclick="handleOutboundLinkClicks('Person_person3','Link_person3')"  href="#person3" id="contact-person2" data-wpel-link="internal">
               <div class="img-area img-area-person3" id="person3">
-                <img src="images/old-man.jpg" alt="" class="img-responsive"/>
+                <img src="images/portraits/person3.jpg" alt="" class="img-responsive"/>
                 <div class="smaller-fpo">FPO</div>
                 <div class="img-descr">
                   <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
-                  <b> GASTROENTROLOGIST </b> <br>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
                  Mount. Sinai Hospital
                  <hr class="purple">
                 </div>
@@ -126,11 +128,11 @@
           <div class="second-row">
             <a onclick="handleOutboundLinkClicks('Person_person4','Link_person4')"  href="#person4" data-wpel-link="internal">
               <div class="img-area img-area-person4">
-                <img src="images/old-man.jpg" alt="" class="img-responsive"/>
+                <img src="images/portraits/person4.jpg" alt="" class="img-responsive"/>
                 <div class="smaller-fpo">FPO</div>
                 <div class="img-descr">
                   <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
-                  <b> GASTROENTROLOGIST </b> <br>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
                  Mount. Sinai Hospital
                  <hr class="purple">
                 </div>
@@ -138,11 +140,11 @@
             </a>
             <a onclick="handleOutboundLinkClicks('Person_person5','Link_person5')"  href="#person5" data-wpel-link="internal">
               <div class="img-area img-area-person5">
-                <img src="images/old-man.jpg" alt="" class="img-responsive"/>
+                <img src="images/portraits/person5.jpg" alt="" class="img-responsive"/>
                 <div class="smaller-fpo">FPO</div>
                 <div class="img-descr">
                   <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
-                  <b> GASTROENTROLOGIST </b> <br>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
                  Mount. Sinai Hospital
                  <hr class="purple">
                 </div>
@@ -157,25 +159,28 @@
 
       <!--container repeat with grey bg -->
       <div class="container second-set">
+        <div style="overflow: hidden">
+          <img id="hero-bg" src="images/person1.jpg" alt="" style="margin:-5% 0px -30% 0px;" />
+        </div>
         <p class="fpo-header">FPO</p>
       </div>
       <div id="person1" class="container grey-set">
+
+        <div id="qr1" class="quote-ref">
+                  <div class="descr-top">DR. FIRSTNAME LASTNAME</div>
+                  <div class="descr-bottom"> GASTROENTROLOGIST </div> <br>
+                 Mount. Sinai Hospital
+                 <hr class="purple">
+                </div>
+
         <div class="quote-wrapper">
-          <img src="images/openq-grey.png" class="img-responsive"/>
+          <!-- <img src="images/openq-grey.png" class="img-responsive"/> -->
           <div class="quote">
               Lorem ipsum dolor sit amet, vidisse nominati eos at quas liber.
           </div>
-          <img class="second img-responsive" src="images/closedq-grey.png"/>
+          <!-- <img class="second img-responsive" src="images/closedq-grey.png"/> -->
         </div>
-        <div id="qr1" class="quote-ref">
-          <div class="name-quote-ref">DR. FIRSTNAME LASTNAME</div>
-          <!-- displays only in mobile -->
-          <div class="hidden-quote-ref">
-            <b> GASTROENTROLOGIST </b> <br>
-            Mount. Sinai Hospital
-          </div>
-          <hr class="purple">
-        </div><!-- end of quote-ref -->
+
 
         <div class="jumbo-descr">
           <span><span class="firstcharacter">L</span>orem ipsum dolor sit amet, vidisse nominati eos at. Quo quas liber consetetur te, te delenit graecis iracundia vel. Quo ut vero gubergren, his liber populo detracto ex. Ius cu laoreet sapientem temporibus, veritus neglegentur per cu.Lorem ipsum dolor sit amet, vidisse nominati eos at quas liber. Lorem ipsum dolor sit amet, vidisse nominati eos at. Quo quas liber consetetur te, te delenit graecis iracundia vel. Quo ut vero gubergren, his liber populo detracto ex. Ius cu laoreet sapientem temporibus, veritus neglegentur per cu. </span>
@@ -190,6 +195,7 @@
       </div>
     <!--container repeat with white bg -->
     <div class="container second-set third-set">
+      <img id="hero-bg" src="images/person2.jpg" alt="" />
         <p class="fpo-header">FPO</p>
       </div>
     <div id="person2" class="container grey-set white-set">
