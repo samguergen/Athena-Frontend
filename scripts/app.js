@@ -50,7 +50,6 @@ $(document).ready(function() {
       $('#rm-content'+(i+1)).css({'opacity': '1', 'height': '100%'});
       $('#rl-btn'+(i+1)).css({'opacity': '1', 'margin-top': '-5%', 'height': '5%'});
       $('#rm-btn'+(i+1)).css({'opacity': '0'});
-      $('#qr'+(i+1)).css({'margin-top': '22%', 'margin-bottom': '-25px'});
       if ($(window).width() < 426) {
         console.log('adding bigger container');
         $(this).closest('.container').addClass("bigger-container");
