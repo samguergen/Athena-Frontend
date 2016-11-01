@@ -291,11 +291,10 @@ hr.purple {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /*max-width: 750px;*/
   margin-left: auto;
   margin-right: auto;
   float: left;
-  margin-top: 40px;
+  padding-top: 100px;
 }
 
  .quote-wrapper img{
@@ -345,6 +344,7 @@ hr.purple {
 }
 
  .jumbo-descr {
+  padding-top: 60px;
   margin-top: 10%;
   text-align: justify;
   line-height: 1.8;
@@ -573,6 +573,9 @@ a:link {
 /* smaller screen, tablet  */
 
 @media screen and (max-width: 980px){
+ .quote-wrapper .quote {
+    font-size: 23px !important;
+  }
   #sgc {
     display: none;
   }
@@ -582,6 +585,9 @@ a:link {
 }
 
 @media screen and (max-width: 920px){
+  .quote-wrapper .quote {
+    font-size: 20px !important;
+  }
   .white-jumbo {
     height: 440px;
   }
@@ -627,8 +633,11 @@ a:link {
 }
 
 @media screen and (max-width: 750px){
+  .grey-set, white-set {
+    height: 700px;
+  }
  .quote-wrapper .quote {
-    font-size: 25px !important;
+    font-size: 15px !important;
   }
   .predict .predict-title h2 {
     font-size: 4rem;
