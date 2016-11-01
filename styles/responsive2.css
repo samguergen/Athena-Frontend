@@ -13,6 +13,10 @@
   }
   .predict-title {
     top: 20%;
+    height: 10%;
+  }
+  .predict-jumbo {
+    height: 1200px;
   }
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
     position: absolute;
@@ -28,6 +32,10 @@
     margin: 400px auto 5px auto !important;
     width:80%;
     z-index: 99 !important;
+    padding-left: 10%;
+  }
+  .contact-photos .img-area {
+    padding-bottom: 10px;
   }
   .contact-photos img{
     width: 300px !important;
@@ -45,16 +53,19 @@
   }
   .img-descr {
     padding-left: 5%;
+    padding-top: 5px;
+  }
+  .quote-wrapper {
+    padding-top: 40px;
   }
   .quote-wrapper img.second{
-    /*margin-left: 66%;*/
     margin-top: -70px;
     display: none;
   }
   .more-athena {
-    margin-left: auto;
+    width: 50%;
+    margin-left: 25%;
     margin-right: auto;
-    width: 500px;
   }
   .more-athena h1 {
     font-size: 30px !important
