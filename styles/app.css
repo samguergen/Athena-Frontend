@@ -629,11 +629,15 @@ a:link {
   .username {
     margin-left: 75%;
   }
+  .predict-content {
+    width: 70%;
+    margin-left: 15%;
+  }
 
 }
 
 @media screen and (max-width: 750px){
-  .grey-set, white-set {
+  .grey-set, .white-set {
     height: 700px;
   }
  .quote-wrapper .quote {
@@ -652,10 +656,6 @@ a:link {
 }
 
 @media screen and (max-width: 738px){
-  .predict-content {
-    width: 100%;
-    margin-left: 0;
-  }
 }
 
 
