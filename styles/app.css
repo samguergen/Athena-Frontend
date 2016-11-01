@@ -280,7 +280,7 @@ hr.purple {
 }
 
 .grey-set {
-  height: 500px;
+  height: 600px;
   padding: 8%;
   background-color: rgba(223,223,223, 0.83);
   display: flex;
@@ -305,7 +305,7 @@ hr.purple {
 
  .quote-wrapper .quote {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "ambroise-francois-std";
   font-family: ambroise;
   text-transform: uppercase;
@@ -333,7 +333,9 @@ hr.purple {
   color: rgb(75,75,75);
 }
 
- .quote-ref hr.purple{ width: 40%; }
+.quote-ref hr.purple {
+  width: 25%;
+}
 
  .quote,  .quote-ref,  .jumbo-descr,  .btn-area{
   margin-left: auto;
@@ -358,7 +360,7 @@ hr.purple {
 }
 
 .btn-area {
-  margin-top: 0px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -380,13 +382,13 @@ hr.purple {
     margin-top: -50px;
 }
 
-.btn-area .read-more, .btn-area .read-less {
+.btn-area .read-more, .read-less {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
 }
 
-.readmore-content, .btn-area .read-less {
+.readmore-content, .read-less {
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -542,11 +544,13 @@ a.back-to-top {
 }
 
 .firstcharacter {
+  font-family: Ambroise Francois;
   float: left;
   color: rgb(75,75,75);
-  font-size: 75px;
+  font-size: 140px;
   line-height: 60px;
-  padding-top: 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 8px;
   padding-left: 3px;
 }
