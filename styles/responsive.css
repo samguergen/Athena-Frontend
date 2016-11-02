@@ -100,7 +100,10 @@
     margin-bottom: 50px;
   }
   .quote-ref {
-    margin-top: 100px !important;
+    margin-top: -20px !important;
+  }
+  .jumbo-descr {
+    padding-top: 20px;
   }
 }
 
@@ -118,7 +121,10 @@
 
 @media screen and (max-width: 560px){
   .quote-wrapper .quote {
-      font-size: 20px !important;
+      /*font-size: 20px !important;*/
+    }
+    .jumbo-descr {
+      margin-top: -2%;
     }
 }
 
@@ -129,4 +135,7 @@
    .quote-wrapper {
     padding-bottom: 120px;
   }
+    .jumbo-descr {
+      margin-top: -8%;
+    }
 }
