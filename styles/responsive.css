@@ -1,7 +1,7 @@
 
 /* smaller screen, tablet  */
 
-/*@media screen and (max-width: 980px){
+@media screen and (max-width: 980px){
  .quote-wrapper .quote {
     font-size: 23px !important;
   }
@@ -129,4 +129,4 @@
    .quote-wrapper {
     padding-bottom: 120px;
   }
-}*/
+}

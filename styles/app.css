@@ -29,7 +29,7 @@
 }
 
 
-html, body{
+html, body {
   width: 100%;
   min-height: 100vh;
   max-height: 100%;
@@ -139,6 +139,7 @@ img#hero-bg {
   color: rgb(75,75,75);
   text-align: center;
   font-size: 10rem;
+  font-family: IndustryW00-Light;
 }
 
 .predict-title {
@@ -208,6 +209,7 @@ img#hero-bg {
   left: 0;
   text-align: center;
   font-size: 50px;
+  font-family: IndustryW00-Light;
 }
 .predict-jumbo .contact-photos .first-row { margin-top: 400px; }
 .predict-jumbo .contact-photos .second-row { margin-top: 30px; }
@@ -563,10 +565,20 @@ a:link {
   display: none;
 }
 
+@media only screen and (max-width: 1100px) {
+   body{
+    background: yellow;
+  }
+  .predict-title {
+    top: 50%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
    body{
     background: green;
   }
   .predict-title {
-    top: 60%;
+    top: 50%;
   }
+}

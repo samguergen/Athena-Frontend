@@ -46,7 +46,7 @@
 /* ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
   body {
-    background: orange !important;
+    /*background: orange !important;*/
     min-width: 100% !important;
   }
   img#hero-bg {
@@ -62,37 +62,37 @@
     height: 2000px;
   }
   .contact-photos {
-    margin: 100px auto 5px 13% !important;
+    margin: 80px auto 5px 10% !important;
     width:80%;
     z-index: 99 !important;
-    padding-left: 10%;
+    padding-left: 2%;
   }
   .contact-photos .img-area {
     padding-bottom: 10px;
+    padding: 5px;
   }
   .img-area .smaller-fpo {
     position: absolute;
-    /*margin-top: -180px;*/
     text-align: center;
     font-size: 50px;
     margin-top: 20px;
   }
   .contact-photos img{
-    width: 200px !important;
-    height: 300px !important;
+    width: 300px !important;
+    height: 400px !important;
   }
   .img-area-person1 .smaller-fpo, .img-area-person3 .smaller-fpo{
-    margin-left:-190px;
+    margin-left:-160px;
   }
   .img-area-person2 .smaller-fpo, .img-area-person4 .smaller-fpo{
-    margin-left:-40px;
+    margin-left:-30px;
   }
   .img-area-person2, .img-area-person4 {
     margin-left: 50% !important;
-    margin-top: -422px !important;
+    margin-top: -543px !important;
   }
   .img-area-person4 {
-    margin-top: -450px !important;
+    margin-top: -565px !important;
   }
   .img-area-person5 {
     width: 300px !important;
@@ -102,6 +102,7 @@
   }
   .img-area-person5 .smaller-fpo{
     margin-left: -50px;
+    font-size: 25px;
   }
   .img-descr {
     padding-left: 5%;
