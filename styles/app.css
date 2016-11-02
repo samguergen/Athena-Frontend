@@ -242,22 +242,25 @@ img#hero-bg {
   flex-direction: column;
   text-align:center;
   width: 210px;
-  line-height: 1.4;
+  line-height: 1;
   font-size: 12px;
   color: rgb(75,75,75);
 }
 
  .descr-top {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   font-size: 13px;
   font-family: "ambroise-francois-std";
   text-transform: uppercase;
   transform: scale(1,3);
   -webkit-transform: scale(1,2);
+  font-weight: bold;
+  padding-left: 22px;
 }
  .descr-bottom {
-  margin-bottom: -17px;
+  margin-bottom: -8px;
   font-weight: bold;
+  font-family: IndustryW00-Light;
 }
 
 hr.purple {
