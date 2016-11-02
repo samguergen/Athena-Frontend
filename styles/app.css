@@ -48,7 +48,9 @@ a:link, a:visited {
   max-width: 100% !important;
 }
 
-#top-hat { width: 95%;}
+#top-hat {
+  width: 95%;
+}
 
 #top-hat h2{
   font-weight: bold;
@@ -148,28 +150,31 @@ img#hero-bg {
   position: absolute;
   background: white;
   margin-right: auto;
-  margin-left: 15%;
-  width: 70%;
+  /*margin-left: 15%;*/
+  /*width: 70%;*/
   height: 50%;
-  top: 70%;
-  padding-top: 20px;
+  /*top: 70%;*/
+  padding: 20px;
   text-align: center;
   color: rgb(35,35,35);
+
+      top: 47%;
+    line-height: 0.9;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .predict-title h2 .predict-title-line1 {
   font-family: IndustryW00-Light;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .predict-title h2 .predict-title-line2 {
   font-family: Industry;
   font-style: normal;
-  font-size: 5rem;
-  /*margin-left: 30%;
-  width: 40%;*/
-/*  transform: scale(2,1);
-  -webkit-transform: scale(2,1);*/
+  font-size: 4.9rem;
+  transform: scale(2.6,0.8);
+  -webkit-transform: scale(2.6,0.8);
 }
 
 .predict-jumbo{
@@ -177,8 +182,9 @@ img#hero-bg {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
-  margin-top: -150px;
+  /*margin-top: -150px;*/
   height: 1400px;
+  margin-top: -90px;
 }
 
 .predict-jumbo .contact-photos {
@@ -219,7 +225,7 @@ img#hero-bg {
   }
 
 .predict-content {
-  font-family: IndustryW00-Light;
+/*  font-family: IndustryW00-Light;
   font-family: Industry;
   order: 2;
   color: rgb(39,39,39);
@@ -229,9 +235,24 @@ img#hero-bg {
   width: 50%;
   font-weight: normal;
   text-align: center;
-  margin-top: 1300px;
+  margin-top: 210px;
   margin-left: 25%;
-  font-size: 1.5rem;
+  font-size: 1.5rem;*/
+
+
+  font-family: Industry;
+    order: 2;
+    color: rgb(39,39,39);
+    line-height: 1.3;
+    text-transform: uppercase;
+    position: absolute;
+    width: 60%;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 20%;
+    font-size: 2.2rem;
+    -webkit-transform: scale(1,0.4);
 }
 
 .img-descr {
@@ -565,20 +586,3 @@ a:link {
   display: none;
 }
 
-@media only screen and (max-width: 1100px) {
-   body{
-    background: yellow;
-  }
-  .predict-title {
-    top: 50%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-   body{
-    background: green;
-  }
-  .predict-title {
-    top: 50%;
-  }
-}

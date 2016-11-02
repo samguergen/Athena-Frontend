@@ -1,3 +1,4 @@
+
 /*@media screen and (max-width: 800px) {
    body{
     background: green !important;
@@ -14,12 +15,82 @@
   }
 }*/
 
+/*@media only screen and (max-width: 1200px) {
+  .predict-title {
+    top: 47%;
+    line-height: 0.9;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .predict-jumbo {
+    margin-top: -90px;
+  }
+}*/
+
+@media only screen and (max-width: 1100px) {
+  .predict-title {
+    top: 45%;
+    padding-top: 3%;
+    line-height: 0.8;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 4.2rem;
+}
+  .predict-content {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .predict-jumbo {
+    margin-top: -80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .predict-title {
+    top: 43%;
+    line-height: 0.8;
+
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.9rem;
+    /*transform: scale(2.6,0.8);*/
+  }
+
+  .predict-title h2 .predict-title-line2 {
+    font-size: 4rem;
+  }
+  .predict-content {
+    /*margin-top: 190px;*/
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .predict-title {
+    top: 40%;
+    line-height: 0.8;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.6rem;
+    /*transform: scale(2.6,0.8);*/
+  }
+
+  .predict-title h2 .predict-title-line2 {
+    font-size: 3.9rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .predict-title {
+    top: 33%;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 0.7;
+  }
+}
+
 @media only screen and (max-device-width: 800px) and (max-width: 800px) {
    body{
     background: blue;
-  }
-  .predict-title {
-    top: 60%;
   }
   #social-toggle {
     display: none;
@@ -28,18 +99,90 @@
     height: 15px;
     display: none;
   }
-}
-
-@media only screen and (max-device-width: 700px) and (max-width: 700px) {
   .predict-title {
-    top: 50%;
+    top: 30%;
+  }
+  .predict-title h2 .predict-title-line1, .predict-title h2 .predict-title-line2 {
+    font-size: 3.5rem;
   }
 }
 
-@media only screen and (max-device-width: 570px) and (max-width: 570px) {
+@media only screen and (max-width: 800px) {
   .predict-title {
-    top: 40%;
+      top: 30%;
+      width: 60%;
+    }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.7rem;
   }
+}
+
+@media only screen and (max-width: 750px) {
+  .predict-title {
+    top: 30%;
+    line-height: 0.5;
+  }
+  .predict-title h2 .predict-title-line2 {
+      font-size: 3.8rem;
+    }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .predict-title {
+    top: 30%;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.1rem;
+  }
+.predict-title h2 .predict-title-line2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .predict-title {
+    top: 27%;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3rem;
+  }
+.predict-title h2 .predict-title-line2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .predict-title {
+    top: 23%;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 2.7rem;
+  }
+.predict-title h2 .predict-title-line2 {
+    font-size: 3rem;
+  }
+/*  .predict-title h2 .predict-title-line1, .predict-title h2 .predict-title-line2 {
+    font-size: 2.5rem;
+  }*/
+}
+
+@media only screen and (max-width: 550px) {
+  .predict-title {
+    top: 23%;
+  }
+  .predict-title h2 .predict-title-line1 {
+    font-size: 2.4rem;
+  }
+.predict-title h2 .predict-title-line2 {
+    font-size: 2.7rem;
+  }
+/*  .predict-title h2 .predict-title-line1, .predict-title h2 .predict-title-line2 {
+    font-size: 2.5rem;
+  }*/
 }
 
 
