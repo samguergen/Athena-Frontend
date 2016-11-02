@@ -78,8 +78,8 @@
     font-size: 3.9rem;
   }
   .predict-content {
-    margin-top: 8%;
-  }
+    margin-top: 7%;
+    width: 70%;
 }
 
 @media only screen and (max-width: 925px) {
@@ -88,6 +88,11 @@
   }
 }
 
+@media only screen and (max-width: 875px) {
+  .predict-title h2 .predict-title-line1 {
+    font-size: 3.6rem;
+  }
+}
 @media only screen and (max-width: 850px) {
   .predict-title {
     top: 33%;
@@ -208,7 +213,7 @@
     top: 30% !important;
   }
   .predict-content {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .predict-jumbo {
     height: 2000px;
