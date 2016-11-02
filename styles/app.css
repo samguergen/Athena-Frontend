@@ -150,15 +150,11 @@ img#hero-bg {
   position: absolute;
   background: white;
   margin-right: auto;
-  /*margin-left: 15%;*/
-  /*width: 70%;*/
   height: 50%;
-  /*top: 70%;*/
   padding: 20px;
   text-align: center;
   color: rgb(35,35,35);
-
-      top: 47%;
+    top: 47%;
     line-height: 0.9;
     margin-left: 25%;
     width: 50%;
@@ -175,6 +171,8 @@ img#hero-bg {
   font-size: 4.9rem;
   transform: scale(2.6,0.8);
   -webkit-transform: scale(2.6,0.8);
+  position: absolute;
+  left: 37%;
 }
 
 .predict-jumbo{
@@ -225,22 +223,7 @@ img#hero-bg {
   }
 
 .predict-content {
-/*  font-family: IndustryW00-Light;
-  font-family: Industry;
-  order: 2;
-  color: rgb(39,39,39);
-  line-height: 1.3;
-  text-transform: uppercase;
-  position: absolute;
-  width: 50%;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 210px;
-  margin-left: 25%;
-  font-size: 1.5rem;*/
-
-
-  font-family: Industry;
+    font-family: Industry;
     order: 2;
     color: rgb(39,39,39);
     line-height: 1.3;
@@ -249,7 +232,7 @@ img#hero-bg {
     width: 60%;
     font-weight: normal;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 8%;
     margin-left: 20%;
     font-size: 2.2rem;
     -webkit-transform: scale(1,0.4);
