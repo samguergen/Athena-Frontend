@@ -136,6 +136,7 @@ a:link, a:visited {
 img#hero-bg {
   width: 100%;
   margin:-5% 0px -40% 0px;
+  margin-bottom: -40%;
 }
 
 .username {
@@ -187,10 +188,8 @@ img#hero-bg {
   font-family: IndustryW00-Book;
   font-style: normal;
   font-size: 4.9rem;
-  /*transform: scale(2.6,0.8);
-  -webkit-transform: scale(2.6,0.8);*/
   position: absolute;
-  left: 34%;
+  left: 16%;
 }
 
 .predict-jumbo{
