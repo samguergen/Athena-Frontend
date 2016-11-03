@@ -365,20 +365,33 @@
   }
 }
 
-/*
+
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     min-width: 100% !important;
   }
-  img#hero-bg {
-    height: 35%;
+  .username {
+    font-size: 8px;
+    margin-top: -20px;
   }
+  img#hero-bg {
+  width: 100%;
+  margin:-5% 0px -0% 0px;
+}
   .predict-title {
-    top: 20%;
-    height: 10%;
+    top: 30%;
+    height: 20%;
+    width: 90%;
+    margin-left: 10%;
+    padding-top: 20px;
+  }
+.predict-title h2 .predict-title-line2 {
+    margin-left: -10%;
   }
   .predict-content {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    font-family: IndustryW00-Book;
+    font-size: 20px;
   }
   .predict-jumbo {
     height: 1500px;
@@ -392,37 +405,32 @@
     font-size: 50px;
   }
   .contact-photos {
-    margin: 400px auto 5px auto !important;
+    margin: 0px auto 5px auto !important;
     width:80%;
     z-index: 99 !important;
-    padding-left: 10%;
+    padding-left: 0%;
   }
   .contact-photos .img-area {
     padding-bottom: 10px;
   }
   .contact-photos img{
-    width: 300px !important;
-    height: 300px !important;
+    height: 200px !important;
+    width: 170px !important;
   }
-
-.predict-title h2 .predict-title-line2 {
-  font-family: IndustryW00-Light;
-  display: none;
-}
-
   .img-area-person2, .img-area-person4 {
-    margin-left: 50% !important;
-    margin-top: -385px !important;
+    margin-left: 60% !important;
+    margin-top: -340px !important;
   }
   .img-area-person5 {
     width: 300px !important;
     margin-right: auto !important;
-    margin-left: 200px !important;
+    margin-left: 50px !important;
     margin-top: 10px !important;
   }
   .img-descr {
-    padding-left: 5%;
-    padding-top: 5px;
+    padding-left: 0%;
+    padding-top: 3px;
+    width: 200px !important;
   }
   .quote-wrapper {
     padding-top: 40px;
@@ -431,13 +439,16 @@
     margin-top: -70px;
     display: none;
   }
+  .jumbo-descr {
+    /*margin-top: -100px;*/
+  }
   .more-athena {
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 15%;
     margin-right: auto;
   }
   .more-athena h1 {
-    font-size: 30px !important
+    font-size: 15px !important
   }
   .img-area {
     margin-left: auto;
@@ -449,10 +460,10 @@
     width: 80% !important;
   }
   .img-section img{
-    height: 300px !important;
-    width: 300px !important;
+    height: 250px !important;
+    width: 250px !important;
     margin-right: auto;
-    margin-left: 30%;
+    margin-left: 10%;
   }
   .more-athena-imgs {
     padding-top: 10px;
@@ -476,6 +487,7 @@
   .white-jumbo {
     height: 1800px !important;
   }
+
   footer {
     clear:both ;
   }
@@ -491,7 +503,7 @@
     margin-right: auto;
     margin-left: auto;
   }
-}*/
+}
 
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
