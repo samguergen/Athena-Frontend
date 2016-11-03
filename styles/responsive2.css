@@ -365,6 +365,7 @@
   }
 }
 
+/*
 @media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     min-width: 100% !important;
@@ -389,7 +390,6 @@
     left: 0;
     text-align: center;
     font-size: 50px;
-    /*visibility: hidden;*/
   }
   .contact-photos {
     margin: 400px auto 5px auto !important;
@@ -403,9 +403,13 @@
   .contact-photos img{
     width: 300px !important;
     height: 300px !important;
-
-
   }
+
+.predict-title h2 .predict-title-line2 {
+  font-family: IndustryW00-Light;
+  display: none;
+}
+
   .img-area-person2, .img-area-person4 {
     margin-left: 50% !important;
     margin-top: -385px !important;
@@ -487,6 +491,11 @@
     margin-right: auto;
     margin-left: auto;
   }
+}*/
+
+@media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
 }
 
 @media only screen and (min-device-width: 212px) and (max-device-width: 322px){
