@@ -42,6 +42,7 @@ function handleOutboundLinkClicks(eCat, eLabel) {
     eventLabel: eLabel,
     transport: 'beacon'
   });
+}
 
   function countLinkClicks(){
     var metricValue = '+1';
