@@ -375,6 +375,7 @@
     margin-top: -20px;
   }
   img#hero-bg {
+    height: 80%;
   width: 100%;
   margin:-5% 0px -0% 0px;
 }
@@ -387,14 +388,15 @@
   }
 .predict-title h2 .predict-title-line2 {
     margin-left: -10%;
+    /*display: none;*/
   }
   .predict-content {
-    /*margin-top: 30px;*/
     font-family: IndustryW00-Book;
     font-size: 20px;
+    /*display: none;*/
   }
   .predict-jumbo {
-    height: 1500px;
+    height: 1300px;
   }
   .predict-jumbo .contact-photos .img-area .smaller-fpo {
     position: absolute;
@@ -406,7 +408,7 @@
   }
   .contact-photos {
     margin: 0px auto 5px auto !important;
-    width:80%;
+    width:90%;
     z-index: 99 !important;
     padding-left: 0%;
   }
@@ -418,14 +420,17 @@
     width: 170px !important;
   }
   .img-area-person2, .img-area-person4 {
-    margin-left: 60% !important;
-    margin-top: -340px !important;
+    margin-left: 55% !important;
+    margin-top: -330px !important;
+  }
+  .img-area-person4 {
+    margin-top: -360px !important;
   }
   .img-area-person5 {
     width: 300px !important;
     margin-right: auto !important;
     margin-left: 50px !important;
-    margin-top: 10px !important;
+    margin-top: 40px !important;
   }
   .img-descr {
     padding-left: 0%;
