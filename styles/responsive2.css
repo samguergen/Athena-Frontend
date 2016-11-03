@@ -392,8 +392,10 @@
   }
   .predict-content {
     font-family: IndustryW00-Book;
-    font-size: 20px;
-    /*display: none;*/
+    font-size: 25px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -20px;
   }
   .predict-jumbo {
     height: 1350px;
@@ -429,7 +431,7 @@
   .img-area-person5 {
     width: 300px !important;
     margin-right: auto !important;
-    margin-left: 50px !important;
+    margin-left: 25% !important;
     margin-top: 0px !important;
   }
   .img-descr {
@@ -439,6 +441,8 @@
   }
   .quote-wrapper {
     padding-top: 40px;
+    margin-bottom: -30px;
+    position: absolute;
   }
   .quote-wrapper img.second{
     margin-top: -70px;
@@ -446,9 +450,16 @@
   }
   .quote-ref {
     line-height: 1;
+    width: 80%;
+    margin-left: 10%;
+
   }
   .jumbo-descr {
-    margin-top: -30px !important;
+    margin-top: 130px !important;
+    width: 90%;
+    margin-left: 2%;
+    font-size: 12px;
+    position: absolute;
   }
   .more-athena {
     width: 70%;
@@ -511,15 +522,9 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .container {
-    height: 1300px;
-  }
-}
-
-@media only screen and (min-device-width: 312px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
 
 }
+
 
 @media only screen and (min-device-width: 212px) and (max-device-width: 322px){
   .img-section img{
